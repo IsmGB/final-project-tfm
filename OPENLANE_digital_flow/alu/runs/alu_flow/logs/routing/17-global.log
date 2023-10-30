@@ -1,0 +1,71 @@
+OpenROAD v2.0-8236-g9a713f0e8 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO]: Reading ODB at '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/alu/runs/alu_flow/tmp/15-alu.odb'…
+define_corners Typical
+read_liberty -corner Typical /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+[WARNING STA-0357] virtual clock __VIRTUAL_CLK__ can not be propagated.
+[INFO]: Setting signal min routing layer to: met1 and clock min routing layer to met1. 
+[INFO]: Setting signal max routing layer to: met4 and clock max routing layer to met4. 
+-congestion_iterations 50 -verbose -congestion_report_file /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/alu/runs/alu_flow/tmp/routing/groute-congestion.rpt
+[INFO GRT-0020] Min routing layer: met1
+[INFO GRT-0021] Max routing layer: met4
+[INFO GRT-0022] Global adjustment: 30%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer li1     Track-Pitch = 0.4600  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met1    Track-Pitch = 0.3400  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met2    Track-Pitch = 0.4600  line-2-Via Pitch: 0.3500
+[INFO GRT-0088] Layer met3    Track-Pitch = 0.6800  line-2-Via Pitch: 0.6150
+[INFO GRT-0088] Layer met4    Track-Pitch = 0.9200  line-2-Via Pitch: 0.6150
+[INFO GRT-0019] Found 0 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 11
+[INFO GRT-0003] Macros: 0
+[INFO GRT-0004] Blockages: 358
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+li1        Vertical            0             0          0.00%
+met1       Horizontal      15680          8322          46.93%
+met2       Vertical        11760          8029          31.73%
+met3       Horizontal       7840          5607          28.48%
+met4       Vertical         5488          3216          41.40%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0197] Via related to pin nodes: 6244
+[INFO GRT-0198] Via related Steiner nodes: 215
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 7151
+[INFO GRT-0112] Final usage 3D: 28616
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+li1                  0             0            0.00%             0 /  0 /  0
+met1              8322          2929           35.20%             0 /  0 /  0
+met2              8029          2921           36.38%             0 /  0 /  0
+met3              5607           740           13.20%             0 /  0 /  0
+met4              3216           573           17.82%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total            25174          7163           28.45%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 74478 um
+[INFO GRT-0014] Routed nets: 1369
+[INFO GRT-0006] Repairing antennas, iteration 1.
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0012] Found 1 antenna violations.
+[INFO GRT-0015] Inserted 1 diodes.
+[INFO GRT-0009] rerouting 992 nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 11
+[INFO GRT-0006] Repairing antennas, iteration 2.
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0012] Found 0 antenna violations.
+Setting global connections for newly added cells…
+Writing OpenROAD database to '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/alu/runs/alu_flow/tmp/routing/17-global.odb'…
+Writing layout to '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/alu/runs/alu_flow/tmp/routing/17-global.def'…
+Writing routing guides to '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/alu/runs/alu_flow/tmp/routing/17-global.guide'…

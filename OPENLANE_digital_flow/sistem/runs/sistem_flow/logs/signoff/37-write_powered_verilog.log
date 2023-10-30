@@ -1,0 +1,27 @@
+OpenROAD v2.0-8236-g9a713f0e8 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/tmp/merged.nom.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/tmp/merged.nom.lef at line 930.
+
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 447 library cells
+[INFO ODB-0226] Finished LEF file:  /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/tmp/merged.nom.lef
+[INFO ODB-0127] Reading DEF file: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/tmp/signoff/36-sistem.p.def
+[INFO ODB-0128] Design: sistem
+[INFO ODB-0094] 		Created 100000 Insts
+[INFO ODB-0094] 		Created 200000 Insts
+[INFO ODB-0130]     Created 48 pins.
+[INFO ODB-0131]     Created 213859 components and 798265 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 795894 connections.
+[INFO ODB-0133]     Created 527 nets and 2371 connections.
+[INFO ODB-0134] Finished DEF file: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/tmp/signoff/36-sistem.p.def
+define_corners Typical
+read_liberty -corner Typical /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+Setting global connections for newly added cells…
+[WARNING] Did not save OpenROAD database!
+Writing netlist to '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/tmp/signoff/36-sistem.nl.v'…
+Writing powered netlist to '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/tmp/signoff/36-sistem.pnl.v'…

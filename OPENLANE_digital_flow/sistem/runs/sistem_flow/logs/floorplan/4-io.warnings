@@ -1,0 +1,6 @@
+[WARNING PPL-0015] Macro ALU is not placed.
+[WARNING PPL-0015] Macro ControlUnity is not placed.
+[WARNING PPL-0015] Macro InstructionCoder is not placed.
+[WARNING PPL-0015] Macro ProgramCounter is not placed.
+[WARNING PPL-0015] Macro RAM is not placed.
+[WARNING PPL-0015] Macro Register is not placed.

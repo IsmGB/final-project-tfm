@@ -1,0 +1,5 @@
+Warning: base.sdc line 18, port '__VIRTUAL_CLK__' not found.
+Warning: base.sdc line 51, transition time can not be specified for virtual clocks.
+Warning: There are 14 unclocked register/latch pins.
+Warning: There are 28 unconstrained endpoints.
+[WARNING] Did not save OpenROAD database!

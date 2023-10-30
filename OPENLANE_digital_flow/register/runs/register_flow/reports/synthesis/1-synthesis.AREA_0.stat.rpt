@@ -1,0 +1,42 @@
+
+61. Printing statistics.
+
+=== register ===
+
+   Number of wires:               4481
+   Number of wire bits:           4586
+   Number of public wires:        1034
+   Number of public wire bits:    1139
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               4536
+     sky130_fd_sc_hd__a21o_2        96
+     sky130_fd_sc_hd__a221o_2      126
+     sky130_fd_sc_hd__a22o_2       450
+     sky130_fd_sc_hd__a31o_2       448
+     sky130_fd_sc_hd__and2_2       514
+     sky130_fd_sc_hd__and3_2       120
+     sky130_fd_sc_hd__and3b_2        4
+     sky130_fd_sc_hd__and4_2         7
+     sky130_fd_sc_hd__buf_1        634
+     sky130_fd_sc_hd__buf_2          1
+     sky130_fd_sc_hd__conb_1        32
+     sky130_fd_sc_hd__dfxtp_2     1089
+     sky130_fd_sc_hd__inv_2         71
+     sky130_fd_sc_hd__mux2_2       129
+     sky130_fd_sc_hd__mux4_2       512
+     sky130_fd_sc_hd__nand2_2       11
+     sky130_fd_sc_hd__nand3_2        3
+     sky130_fd_sc_hd__nor2_2        18
+     sky130_fd_sc_hd__nor2b_2        2
+     sky130_fd_sc_hd__nor3_2         1
+     sky130_fd_sc_hd__nor3b_2        3
+     sky130_fd_sc_hd__o21a_2       128
+     sky130_fd_sc_hd__or2_2        131
+     sky130_fd_sc_hd__or2b_2         3
+     sky130_fd_sc_hd__or3_2          1
+     sky130_fd_sc_hd__or3b_2         2
+
+   Chip area for module '\register': 56744.422400
+

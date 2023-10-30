@@ -1,0 +1,21 @@
+
+47. Printing statistics.
+
+=== memory_ram ===
+
+   Number of wires:               8950
+   Number of wire bits:          16986
+   Number of public wires:         261
+   Number of public wire bits:    8266
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              16944
+     $_ANDNOT_                     256
+     $_DFFE_PP_                   8192
+     $_DFF_N_                       32
+     $_MUX_                       8160
+     $_NAND_                         4
+     $_ORNOT_                        8
+     $_OR_                         292
+

@@ -1,0 +1,8 @@
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/synthesis/sistem.v line 1651, module alu not found. Creating black box for ALU.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/synthesis/sistem.v line 1657, module control_unity not found. Creating black box for ControlUnity.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/synthesis/sistem.v line 1671, module instruction_coder not found. Creating black box for InstructionCoder.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/synthesis/sistem.v line 1683, module program_counter not found. Creating black box for ProgramCounter.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/synthesis/sistem.v line 1689, module memory_ram not found. Creating black box for RAM.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/synthesis/sistem.v line 1696, module register not found. Creating black box for Register.
+Warning: There are 12 unconstrained endpoints.
+[WARNING] Did not save OpenROAD database!

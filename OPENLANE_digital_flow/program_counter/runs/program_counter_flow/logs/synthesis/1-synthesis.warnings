@@ -1,0 +1,14 @@
+ABC: Warning: Detected 2 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+Warning: Wire program_counter.\count [11] is used but has no driver.
+Warning: Wire program_counter.\count [10] is used but has no driver.
+Warning: Wire program_counter.\count [9] is used but has no driver.
+Warning: Wire program_counter.\count [8] is used but has no driver.
+Warning: Wire program_counter.\count [7] is used but has no driver.
+Warning: Wire program_counter.\count [6] is used but has no driver.
+Warning: Wire program_counter.\count [5] is used but has no driver.
+Warning: Wire program_counter.\count [4] is used but has no driver.
+Warning: Wire program_counter.\count [3] is used but has no driver.
+Warning: Wire program_counter.\count [2] is used but has no driver.
+Warning: Wire program_counter.\count [1] is used but has no driver.
+Warning: Wire program_counter.\count [0] is used but has no driver.
+Warnings: 12 unique messages, 12 total

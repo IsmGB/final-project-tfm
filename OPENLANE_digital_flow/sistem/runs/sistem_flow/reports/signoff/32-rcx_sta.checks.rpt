@@ -1,0 +1,342 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= Typical Corner ===================================
+
+Startpoint: clk (clock source 'clk')
+Endpoint: Register/clk (internal pin)
+Path Group: unconstrained
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.44    0.35   15.35 v clk (in)
+     2    0.20                           clk (net)
+                  0.44    0.00   15.35 v clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+                  0.08    0.37   15.72 v clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+     2    0.08                           clknet_0_clk (net)
+                  0.08    0.01   15.73 v clkbuf_1_0__f_clk/A (sky130_fd_sc_hd__clkbuf_16)
+                  0.15    0.25   15.98 v clkbuf_1_0__f_clk/X (sky130_fd_sc_hd__clkbuf_16)
+     2    0.22                           clknet_1_0__leaf_clk (net)
+                  0.18    0.06   16.04 v Register/clk (register)
+                                 16.04   data arrival time
+-----------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= Typical Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= Typical Corner ===================================
+
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+_170_/X                                  10     11        (VIOLATED)
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 0 unannotated drivers.
+Found 132 partially unannotated drivers.
+ _126_/X
+  RAM/data_in[18]
+ _128_/X
+  RAM/data_in[17]
+ _130_/X
+  RAM/data_in[16]
+ _137_/X
+  RAM/data_in[15]
+ _139_/X
+  RAM/data_in[14]
+ _141_/X
+  RAM/data_in[13]
+ _143_/X
+  RAM/data_in[12]
+ _145_/X
+  RAM/data_in[11]
+ _147_/X
+  RAM/data_in[10]
+ _149_/X
+  RAM/data_in[9]
+ _151_/X
+  RAM/data_in[8]
+ _153_/X
+  RAM/data_in[7]
+ _155_/X
+  RAM/data_in[6]
+ _157_/X
+  RAM/data_in[5]
+ _159_/X
+  RAM/data_in[4]
+ _161_/X
+  RAM/data_in[3]
+ _163_/X
+  RAM/data_in[2]
+ _165_/X
+  RAM/data_in[1]
+ _167_/X
+  RAM/data_in[0]
+ _172_/X
+  ProgramCounter/addition[11]
+ _174_/X
+  ProgramCounter/addition[10]
+ _176_/X
+  ProgramCounter/addition[9]
+ _178_/X
+  ProgramCounter/addition[8]
+ _180_/X
+  ProgramCounter/addition[7]
+ _182_/X
+  ProgramCounter/addition[6]
+ _184_/X
+  ProgramCounter/addition[5]
+ _186_/X
+  ProgramCounter/addition[4]
+ _188_/X
+  ProgramCounter/addition[3]
+ _190_/X
+  ProgramCounter/addition[2]
+ _192_/X
+  ProgramCounter/addition[1]
+ _194_/X
+  ProgramCounter/addition[0]
+ _199_/X
+  ALU/data_in2[31]
+ _202_/X
+  ALU/data_in2[30]
+ _205_/X
+  ALU/data_in2[29]
+ _208_/X
+  ALU/data_in2[28]
+ _211_/X
+  ALU/data_in2[27]
+ _214_/X
+  ALU/data_in2[26]
+ _217_/X
+  ALU/data_in2[25]
+ _220_/X
+  ALU/data_in2[24]
+ _223_/X
+  ALU/data_in2[23]
+ _226_/X
+  ALU/data_in2[22]
+ _229_/X
+  ALU/data_in2[21]
+ _234_/X
+  ALU/data_in2[20]
+ _235_/X
+  ALU/data_in2[19]
+ _236_/X
+  ALU/data_in2[18]
+ _237_/X
+  ALU/data_in2[17]
+ _238_/X
+  ALU/data_in2[16]
+ _239_/X
+  ALU/data_in2[15]
+ _240_/X
+  ALU/data_in2[14]
+ _241_/X
+  ALU/data_in2[13]
+ _242_/X
+  ALU/data_in2[12]
+ _243_/X
+  ALU/data_in2[11]
+ _246_/X
+  ALU/data_in2[10]
+ _247_/X
+  ALU/data_in2[9]
+ _248_/X
+  ALU/data_in2[8]
+ _249_/X
+  ALU/data_in2[7]
+ _250_/X
+  ALU/data_in2[6]
+ _251_/X
+  ALU/data_in2[5]
+ _252_/X
+  ALU/data_in2[4]
+ _253_/X
+  ALU/data_in2[3]
+ _254_/X
+  ALU/data_in2[2]
+ _255_/X
+  ALU/data_in2[1]
+ _256_/X
+  ALU/data_in2[0]
+ _259_/X
+  Register/data_in[31]
+ _261_/X
+  Register/data_in[30]
+ _263_/X
+  Register/data_in[29]
+ _265_/X
+  Register/data_in[28]
+ _267_/X
+  Register/data_in[27]
+ _269_/X
+  Register/data_in[26]
+ _271_/X
+  Register/data_in[25]
+ _273_/X
+  Register/data_in[24]
+ _282_/X
+  Register/data_in[23]
+ _286_/X
+  Register/data_in[22]
+ _288_/X
+  Register/data_in[21]
+ _290_/X
+  Register/data_in[20]
+ _292_/X
+  Register/data_in[19]
+ _294_/X
+  Register/data_in[18]
+ _296_/X
+  Register/data_in[17]
+ _298_/X
+  Register/data_in[16]
+ _302_/X
+  Register/data_in[15]
+ _306_/X
+  Register/data_in[14]
+ _309_/X
+  Register/data_in[13]
+ _311_/X
+  Register/data_in[12]
+ _313_/X
+  Register/data_in[11]
+ _315_/X
+  Register/data_in[10]
+ _317_/X
+  Register/data_in[9]
+ _319_/X
+  Register/data_in[8]
+ _321_/X
+  Register/data_in[7]
+ _323_/X
+  Register/data_in[6]
+ _325_/X
+  Register/data_in[5]
+ _327_/X
+  Register/data_in[4]
+ _329_/X
+  Register/data_in[3]
+ _331_/X
+  Register/data_in[2]
+ _333_/X
+  Register/data_in[1]
+ _335_/X
+  Register/data_in[0]
+ _337_/X
+  RAM/data_in[23]
+ _339_/X
+  RAM/data_in[22]
+ _341_/X
+  RAM/data_in[21]
+ _343_/X
+  RAM/data_in[20]
+ _345_/X
+  RAM/data_in[19]
+ input1/X
+  InstructionCoder/data_in[31]
+ input10/X
+  InstructionCoder/data_in[13]
+ input11/X
+  InstructionCoder/data_in[12]
+ input12/X
+  InstructionCoder/data_in[30]
+ input13/X
+  InstructionCoder/data_in[11]
+ input14/X
+  InstructionCoder/data_in[10]
+ input15/X
+  InstructionCoder/data_in[9]
+ input16/X
+  InstructionCoder/data_in[8]
+ input17/X
+  InstructionCoder/data_in[7]
+ input18/X
+  InstructionCoder/data_in[6]
+ input19/X
+  InstructionCoder/data_in[5]
+ input2/X
+  InstructionCoder/data_in[21]
+ input20/X
+  InstructionCoder/data_in[4]
+ input21/X
+  InstructionCoder/data_in[3]
+ input22/X
+  InstructionCoder/data_in[2]
+ input23/X
+  InstructionCoder/data_in[29]
+ input24/X
+  InstructionCoder/data_in[1]
+ input25/X
+  InstructionCoder/data_in[0]
+ input26/X
+  InstructionCoder/data_in[28]
+ input27/X
+  InstructionCoder/data_in[27]
+ input28/X
+  InstructionCoder/data_in[26]
+ input29/X
+  InstructionCoder/data_in[25]
+ input3/X
+  InstructionCoder/data_in[20]
+ input30/X
+  InstructionCoder/data_in[24]
+ input31/X
+  InstructionCoder/data_in[23]
+ input32/X
+  InstructionCoder/data_in[22]
+ input4/X
+  InstructionCoder/data_in[19]
+ input5/X
+  InstructionCoder/data_in[18]
+ input6/X
+  InstructionCoder/data_in[17]
+ input7/X
+  InstructionCoder/data_in[16]
+ input8/X
+  InstructionCoder/data_in[15]
+ input9/X
+  InstructionCoder/data_in[14]
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 1
+max cap violation count 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There are 12 unconstrained endpoints.
+  count[0]
+  count[10]
+  count[11]
+  count[1]
+  count[2]
+  count[3]
+  count[4]
+  count[5]
+  count[6]
+  count[7]
+  count[8]
+  count[9]

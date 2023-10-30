@@ -1,0 +1,73 @@
+OpenROAD v2.0-8236-g9a713f0e8 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO]: Reading ODB at '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/instruction_coder/runs/instruction_coder_flow/results/floorplan/instruction_coder.odb'…
+define_corners Typical
+read_liberty -corner Typical /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+[INFO]: Setting RC values...
+[INFO]: Setting signal min routing layer to: met1 and clock min routing layer to met1. 
+[INFO]: Setting signal max routing layer to: met4 and clock max routing layer to met4. 
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: 460 2720
+[INFO GPL-0004] CoreAreaLxLy: 5520 10880
+[INFO GPL-0005] CoreAreaUxUy: 194120 187680
+[INFO GPL-0006] NumInstances: 667
+[INFO GPL-0007] NumPlaceInstances: 68
+[INFO GPL-0008] NumFixedInstances: 599
+[INFO GPL-0009] NumDummyInstances: 0
+[INFO GPL-0010] NumNets: 100
+[INFO GPL-0011] NumPins: 236
+[INFO GPL-0012] DieAreaLxLy: 0 0
+[INFO GPL-0013] DieAreaUxUy: 200000 200000
+[INFO GPL-0014] CoreAreaLxLy: 5520 10880
+[INFO GPL-0015] CoreAreaUxUy: 194120 187680
+[INFO GPL-0016] CoreArea: 33344480000
+[INFO GPL-0017] NonPlaceInstsArea: 1074780800
+[INFO GPL-0018] PlaceInstsArea: 340326400
+[INFO GPL-0019] Util(%): 1.05
+[INFO GPL-0020] StdInstsArea: 340326400
+[INFO GPL-0021] MacroInstsArea: 0
+[InitialPlace]  Iter: 1 CG residual: 0.00000008 HPWL: 20093230
+[InitialPlace]  Iter: 2 CG residual: 0.00000011 HPWL: 11008565
+[InitialPlace]  Iter: 3 CG residual: 0.00000009 HPWL: 10130143
+[InitialPlace]  Iter: 4 CG residual: 0.00000008 HPWL: 9295097
+[InitialPlace]  Iter: 5 CG residual: 0.00000008 HPWL: 8741156
+[INFO GPL-0031] FillerInit: NumGCells: 3868
+[INFO GPL-0032] FillerInit: NumGNets: 100
+[INFO GPL-0033] FillerInit: NumGPins: 236
+[INFO GPL-0023] TargetDensity: 0.60
+[INFO GPL-0024] AveragePlaceInstArea: 5004800
+[INFO GPL-0025] IdealBinArea: 8341333
+[INFO GPL-0026] IdealBinCnt: 3997
+[INFO GPL-0027] TotalBinArea: 33344480000
+[INFO GPL-0028] BinCnt: 32 32
+[INFO GPL-0029] BinSize: 5894 5525
+[INFO GPL-0030] NumBins: 1024
+[NesterovSolve] Iter: 1 overflow: 0 HPWL: 8260715
+[INFO GPL-0100] worst slack 5.37e-09
+[INFO GPL-0103] Weighted 9 nets.
+[NesterovSolve] Snapshot saved at iter = 0
+[INFO GPL-0075] Routability numCall: 1 inflationIterCnt: 1 bloatIterCnt: 0
+[INFO GPL-0036] TileLxLy: 0 0
+[INFO GPL-0037] TileSize: 6900 6900
+[INFO GPL-0038] TileCnt: 28 28
+[INFO GPL-0039] numRoutingLayers: 6
+[INFO GPL-0040] NumTiles: 784
+[INFO GPL-0063] TotalRouteOverflowH2: 0
+[INFO GPL-0064] TotalRouteOverflowV2: 0
+[INFO GPL-0065] OverflowTileCnt2: 0
+[INFO GPL-0066] 0.5%RC: 0.7875000089406967
+[INFO GPL-0067] 1.0%RC: 0.7700000047683716
+[INFO GPL-0068] 2.0%RC: 0.7399999976158143
+[INFO GPL-0069] 5.0%RC: 0.6945205347178733
+[INFO GPL-0070] 0.5rcK: 1
+[INFO GPL-0071] 1.0rcK: 1
+[INFO GPL-0072] 2.0rcK: 0
+[INFO GPL-0073] 5.0rcK: 0
+[INFO GPL-0074] FinalRC: 0.77875
+[NesterovSolve] Finished with Overflow: 0.000000
+Setting global connections for newly added cells…
+Writing OpenROAD database to '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/instruction_coder/runs/instruction_coder_flow/tmp/placement/7-global.odb'…
+Writing netlist to '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/instruction_coder/runs/instruction_coder_flow/tmp/placement/7-global.nl.v'…
+Writing powered netlist to '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/instruction_coder/runs/instruction_coder_flow/tmp/placement/7-global.pnl.v'…
+Writing layout to '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/instruction_coder/runs/instruction_coder_flow/tmp/placement/7-global.def'…

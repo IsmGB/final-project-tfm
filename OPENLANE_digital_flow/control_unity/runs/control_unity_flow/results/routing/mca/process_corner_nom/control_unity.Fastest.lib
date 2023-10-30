@@ -1,0 +1,216 @@
+library (control_unity) {
+  comment                        : "";
+  delay_model                    : table_lookup;
+  simulation                     : false;
+  capacitive_load_unit (1,pF);
+  leakage_power_unit             : 1pW;
+  current_unit                   : "1A";
+  pulling_resistance_unit        : "1kohm";
+  time_unit                      : "1ns";
+  voltage_unit                   : "1v";
+  library_features(report_delay_calculation);
+
+  input_threshold_pct_rise : 50;
+  input_threshold_pct_fall : 50;
+  output_threshold_pct_rise : 50;
+  output_threshold_pct_fall : 50;
+  slew_lower_threshold_pct_rise : 20;
+  slew_lower_threshold_pct_fall : 20;
+  slew_upper_threshold_pct_rise : 80;
+  slew_upper_threshold_pct_fall : 80;
+  slew_derate_from_library : 1.0;
+
+
+  nom_process                    : 1.0;
+  nom_temperature                : 100.0;
+  nom_voltage                    : 1.60;
+
+  type ("alu_control") {
+    base_type : array;
+    data_type : bit;
+    bit_width : 4;
+    bit_from : 3;
+    bit_to : 0;
+  }
+  type ("databus") {
+    base_type : array;
+    data_type : bit;
+    bit_width : 3;
+    bit_from : 2;
+    bit_to : 0;
+  }
+  type ("funct3") {
+    base_type : array;
+    data_type : bit;
+    bit_width : 3;
+    bit_from : 2;
+    bit_to : 0;
+  }
+  type ("funct7") {
+    base_type : array;
+    data_type : bit;
+    bit_width : 7;
+    bit_from : 6;
+    bit_to : 0;
+  }
+  type ("opcode") {
+    base_type : array;
+    data_type : bit;
+    bit_width : 7;
+    bit_from : 6;
+    bit_to : 0;
+  }
+
+  cell ("control_unity") {
+    pin("alu_mux_in") {
+      direction : output;
+      capacitance : 0.0011;
+    }
+    pin("alu_mux_out") {
+      direction : output;
+      capacitance : 0.0010;
+    }
+    pin("br_enable") {
+      direction : output;
+      capacitance : 0.0007;
+    }
+    pin("br_mux_inv") {
+      direction : output;
+      capacitance : 0.0005;
+    }
+    pin("imm_rd") {
+      direction : output;
+      capacitance : 0.0005;
+    }
+    pin("ram_w_enable") {
+      direction : output;
+      capacitance : 0.0010;
+    }
+    pin("register_w_enable") {
+      direction : output;
+      capacitance : 0.0005;
+    }
+    bus("alu_control") {
+      bus_type : alu_control;
+      direction : output;
+      capacitance : 0.0000;
+    pin("alu_control[3]") {
+      direction : output;
+      capacitance : 0.0006;
+    }
+    pin("alu_control[2]") {
+      direction : output;
+      capacitance : 0.0006;
+    }
+    pin("alu_control[1]") {
+      direction : output;
+      capacitance : 0.0008;
+    }
+    pin("alu_control[0]") {
+      direction : output;
+      capacitance : 0.0005;
+    }
+    }
+    bus("databus") {
+      bus_type : databus;
+      direction : output;
+      capacitance : 0.0000;
+    pin("databus[2]") {
+      direction : output;
+      capacitance : 0.0014;
+    }
+    pin("databus[1]") {
+      direction : output;
+      capacitance : 0.0005;
+    }
+    pin("databus[0]") {
+      direction : output;
+      capacitance : 0.0011;
+    }
+    }
+    bus("funct3") {
+      bus_type : funct3;
+      direction : input;
+      capacitance : 0.0000;
+    pin("funct3[2]") {
+      direction : input;
+      capacitance : 0.0031;
+    }
+    pin("funct3[1]") {
+      direction : input;
+      capacitance : 0.0033;
+    }
+    pin("funct3[0]") {
+      direction : input;
+      capacitance : 0.0027;
+    }
+    }
+    bus("funct7") {
+      bus_type : funct7;
+      direction : input;
+      capacitance : 0.0000;
+    pin("funct7[6]") {
+      direction : input;
+      capacitance : 0.0034;
+    }
+    pin("funct7[5]") {
+      direction : input;
+      capacitance : 0.0027;
+    }
+    pin("funct7[4]") {
+      direction : input;
+      capacitance : 0.0029;
+    }
+    pin("funct7[3]") {
+      direction : input;
+      capacitance : 0.0051;
+    }
+    pin("funct7[2]") {
+      direction : input;
+      capacitance : 0.0029;
+    }
+    pin("funct7[1]") {
+      direction : input;
+      capacitance : 0.0029;
+    }
+    pin("funct7[0]") {
+      direction : input;
+      capacitance : 0.0034;
+    }
+    }
+    bus("opcode") {
+      bus_type : opcode;
+      direction : input;
+      capacitance : 0.0000;
+    pin("opcode[6]") {
+      direction : input;
+      capacitance : 0.0025;
+    }
+    pin("opcode[5]") {
+      direction : input;
+      capacitance : 0.0027;
+    }
+    pin("opcode[4]") {
+      direction : input;
+      capacitance : 0.0029;
+    }
+    pin("opcode[3]") {
+      direction : input;
+      capacitance : 0.0033;
+    }
+    pin("opcode[2]") {
+      direction : input;
+      capacitance : 0.0029;
+    }
+    pin("opcode[1]") {
+      direction : input;
+      capacitance : 0.0029;
+    }
+    pin("opcode[0]") {
+      direction : input;
+      capacitance : 0.0031;
+    }
+    }
+  }
+
+}

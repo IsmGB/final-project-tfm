@@ -1,0 +1,28 @@
+digraph "program_counter" {
+label="program_counter";
+rankdir="LR";
+remincross=true;
+n6 [ shape=diamond, label="set", color="black", fontcolor="black" ];
+n7 [ shape=octagon, label="count", color="black", fontcolor="black" ];
+n8 [ shape=octagon, label="addition", color="black", fontcolor="black" ];
+n9 [ shape=octagon, label="reset", color="black", fontcolor="black" ];
+n10 [ shape=octagon, label="clk", color="black", fontcolor="black" ];
+c14 [ shape=record, label="{{<p11> A|<p12> B}|$3\n$add|{<p13> Y}}" ];
+v0 [ label="1" ];
+c15 [ shape=record, label="{{<p11> A|<p12> B}|$2\n$eq|{<p13> Y}}" ];
+p1 [shape=box, style=rounded, label="PROC $4\n/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/program_counter/src/program_counter.v:9.12-9.19"];
+p2 [shape=box, style=rounded, label="PROC $1\n/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/program_counter/src/program_counter.v:11.4-25.7"];
+n10:e -> p2:w [color="black", label=""];
+c14:p13:e -> p2:w [color="black", style="setlinewidth(3)", label=""];
+c15:p13:e -> p2:w [color="black", label=""];
+p1:e -> n6:w [color="black", style="setlinewidth(3)", label=""];
+p2:e -> n6:w [color="black", style="setlinewidth(3)", label=""];
+n6:e -> c15:p11:w [color="black", style="setlinewidth(3)", label=""];
+n6:e -> p2:w [color="black", style="setlinewidth(3)", label=""];
+p2:e -> n7:w [color="black", style="setlinewidth(3)", label=""];
+n7:e -> c14:p11:w [color="black", style="setlinewidth(3)", label=""];
+n7:e -> p2:w [color="black", style="setlinewidth(3)", label=""];
+n8:e -> c14:p12:w [color="black", style="setlinewidth(3)", label=""];
+n9:e -> p2:w [color="black", label=""];
+v0:e -> c15:p12:w [color="black", style="setlinewidth(3)", label=""];
+}

@@ -1,0 +1,31 @@
+digraph "memory_ram" {
+label="memory_ram";
+rankdir="LR";
+remincross=true;
+n12 [ shape=octagon, label="data_out", color="black", fontcolor="black" ];
+n13 [ shape=octagon, label="data_in", color="black", fontcolor="black" ];
+n14 [ shape=octagon, label="data_addr", color="black", fontcolor="black" ];
+n15 [ shape=octagon, label="w_enable", color="black", fontcolor="black" ];
+n16 [ shape=octagon, label="clk", color="black", fontcolor="black" ];
+v0 [ label="1'x" ];
+v1 [ label="1'x" ];
+c21 [ shape=record, label="{{<p17> ADDR|<p18> CLK|<p19> EN}|$10\n$memrd|{<p20> DATA}}" ];
+p2 [shape=box, style=rounded, label="PROC $9\n/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/memory_ram/src/memory_ram.v:19.4-22.7"];
+p3 [shape=box, style=rounded, label="PROC $2\n/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/memory_ram/src/memory_ram.v:13.4-17.7"];
+c21:p20:e -> p2:w [color="black", style="setlinewidth(3)", label=""];
+n10 [ shape=diamond, label="$1_DATA" ];
+p3:e -> n10:w [color="black", style="setlinewidth(3)", label=""];
+n11 [ shape=diamond, label="$1_ADDR" ];
+p3:e -> n11:w [color="black", style="setlinewidth(3)", label=""];
+p2:e -> n12:w [color="black", style="setlinewidth(3)", label=""];
+n13:e -> p3:w [color="black", style="setlinewidth(3)", label=""];
+n14:e -> c21:p17:w [color="black", style="setlinewidth(3)", label=""];
+n14:e -> p3:w [color="black", style="setlinewidth(3)", label=""];
+n15:e -> p3:w [color="black", label=""];
+n16:e -> p2:w [color="black", label=""];
+n16:e -> p3:w [color="black", label=""];
+n9 [ shape=diamond, label="$1_EN" ];
+p3:e -> n9:w [color="black", style="setlinewidth(3)", label=""];
+v0:e -> c21:p19:w [color="black", label=""];
+v1:e -> c21:p18:w [color="black", label=""];
+}

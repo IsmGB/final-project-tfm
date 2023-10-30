@@ -1,0 +1,89 @@
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VPWR has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING GRT-0040] Net VGND has wires outside die area.
+[WARNING ANT-0009] Net alu_data_out\[1\] requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net alu_data_out\[2\] requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net alu_data_out\[4\] requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net immediateB\[11\] requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net ram_data_in\[1\] requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net ram_data_in\[4\] requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net ram_data_in\[5\] requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net ram_data_in\[7\] requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net ram_data_out\[17\] requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net ram_data_out\[18\] requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net ram_data_out\[19\] requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net ram_data_out\[4\] requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net ram_data_out\[5\] requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net ram_data_out\[6\] requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net ram_data_out\[6\] requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net register_data_out2\[22\] requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net register_data_out2\[26\] requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net register_data_out2\[27\] requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net37 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net39 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net39 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net40 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net43 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net42 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net ram_data_out\[3\] requires more than 10 diodes per gate to repair violations.

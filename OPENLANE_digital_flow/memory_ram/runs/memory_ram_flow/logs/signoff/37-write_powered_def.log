@@ -1,0 +1,27 @@
+OpenROAD v2.0-8236-g9a713f0e8 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/memory_ram/runs/memory_ram_flow/tmp/merged.nom.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/memory_ram/runs/memory_ram_flow/tmp/merged.nom.lef at line 930.
+
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 441 library cells
+[INFO ODB-0226] Finished LEF file:  /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/memory_ram/runs/memory_ram_flow/tmp/merged.nom.lef
+[INFO ODB-0127] Reading DEF file: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/memory_ram/runs/memory_ram_flow/results/routing/memory_ram.def
+[INFO ODB-0128] Design: memory_ram
+[INFO ODB-0094] 		Created 100000 Insts
+[INFO ODB-0094] 		Created 200000 Insts
+[INFO ODB-0130]     Created 76 pins.
+[INFO ODB-0131]     Created 215442 components and 942849 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 808238 connections.
+[INFO ODB-0133]     Created 42677 nets and 134611 connections.
+[INFO ODB-0134] Finished DEF file: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/memory_ram/runs/memory_ram_flow/results/routing/memory_ram.def
+Top-level design name: memory_ram
+Found default power net 'VPWR'
+Found default ground net 'VGND'
+Found 1 power ports.
+Found 1 ground ports.
+Modified power connections of 215442/215442 cells.

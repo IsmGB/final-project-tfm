@@ -1,0 +1,77 @@
+$date
+	Sat Oct 14 14:29:38 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module program_counter_tb $end
+$var wire 12 ! count [11:0] $end
+$var reg 12 " addition [11:0] $end
+$var reg 1 # clk $end
+$var reg 1 $ reset $end
+$scope module DUT $end
+$var wire 12 % addition [11:0] $end
+$var wire 1 # clk $end
+$var wire 1 $ reset $end
+$var reg 12 & count [11:0] $end
+$var integer 32 ' set [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 '
+bx &
+b100 %
+0$
+0#
+b100 "
+bx !
+$end
+#10
+b1 '
+b0 !
+b0 &
+1#
+#20
+0#
+#30
+b100 !
+b100 &
+1#
+#40
+0#
+#50
+b1000 !
+b1000 &
+1#
+#60
+0#
+1$
+#70
+b0 '
+bx !
+bx &
+1#
+#80
+0#
+0$
+#90
+b1 '
+b0 !
+b0 &
+1#
+#100
+0#
+#110
+b100 !
+b100 &
+1#
+#120
+0#

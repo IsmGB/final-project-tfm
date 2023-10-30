@@ -1,0 +1,18 @@
+
+60. Executing CHECK pass (checking for obvious problems).
+Checking module control_unity...
+Warning: Wire control_unity.\register_w_enable is used but has no driver.
+Warning: Wire control_unity.\ram_w_enable is used but has no driver.
+Warning: Wire control_unity.\imm_rd is used but has no driver.
+Warning: Wire control_unity.\databus [2] is used but has no driver.
+Warning: Wire control_unity.\databus [1] is used but has no driver.
+Warning: Wire control_unity.\databus [0] is used but has no driver.
+Warning: Wire control_unity.\br_mux_inv is used but has no driver.
+Warning: Wire control_unity.\br_enable is used but has no driver.
+Warning: Wire control_unity.\alu_mux_out is used but has no driver.
+Warning: Wire control_unity.\alu_mux_in is used but has no driver.
+Warning: Wire control_unity.\alu_control [3] is used but has no driver.
+Warning: Wire control_unity.\alu_control [2] is used but has no driver.
+Warning: Wire control_unity.\alu_control [1] is used but has no driver.
+Warning: Wire control_unity.\alu_control [0] is used but has no driver.
+Found and reported 14 problems.

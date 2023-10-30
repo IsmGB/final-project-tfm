@@ -1,0 +1,488 @@
+[
+  {
+   "pins": [
+      [
+        "VGND",
+        "VPWR"
+      ], [
+        "VGND",
+        "VPWR"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ], [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ], [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ], [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ], [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ], [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR",
+        "X"
+      ], [
+        "A",
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR",
+        "X"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ], [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR",
+        "X"
+      ], [
+        "A",
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR",
+        "X"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR",
+        "X"
+      ], [
+        "A",
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR",
+        "X"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ], [
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR",
+        "X"
+      ], [
+        "A",
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR",
+        "X"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR",
+        "X"
+      ], [
+        "A",
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR",
+        "X"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR",
+        "X"
+      ], [
+        "A",
+        "VGND",
+        "VNB",
+        "VPB",
+        "VPWR",
+        "X"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "instruction_coder",
+      "instruction_coder"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_sc_hd__tapvpwrvgnd_1", 1],
+         ["sky130_ef_sc_hd__decap_12", 1],
+         ["sky130_fd_sc_hd__fill_1", 1],
+         ["sky130_fd_sc_hd__decap_8", 1],
+         ["sky130_fd_sc_hd__decap_6", 1],
+         ["sky130_fd_sc_hd__decap_4", 1],
+         ["sky130_fd_sc_hd__clkbuf_1", 53],
+         ["sky130_fd_sc_hd__fill_2", 1],
+         ["sky130_fd_sc_hd__clkbuf_4", 64],
+         ["sky130_fd_sc_hd__clkbuf_2", 14],
+         ["sky130_fd_sc_hd__decap_3", 1],
+         ["sky130_fd_sc_hd__buf_1", 25],
+         ["sky130_fd_sc_hd__buf_2", 10],
+         ["sky130_fd_sc_hd__dlymetal6s2s_1", 2 ]
+       ], [
+         ["sky130_fd_sc_hd__tapvpwrvgnd_1", 1 ],
+         ["sky130_ef_sc_hd__decap_12", 1 ],
+         ["sky130_fd_sc_hd__fill_1", 1 ],
+         ["sky130_fd_sc_hd__decap_8", 1 ],
+         ["sky130_fd_sc_hd__decap_6", 1 ],
+         ["sky130_fd_sc_hd__decap_4", 1 ],
+         ["sky130_fd_sc_hd__clkbuf_1", 53 ],
+         ["sky130_fd_sc_hd__fill_2", 1 ],
+         ["sky130_fd_sc_hd__clkbuf_4", 64 ],
+         ["sky130_fd_sc_hd__clkbuf_2", 14 ],
+         ["sky130_fd_sc_hd__decap_3", 1 ],
+         ["sky130_fd_sc_hd__buf_1", 25 ],
+         ["sky130_fd_sc_hd__buf_2", 10 ],
+         ["sky130_fd_sc_hd__dlymetal6s2s_1", 2 ]
+       ]
+   ],
+   "nets": [
+    202,
+    202
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "data_in[18]",
+        "data_in[21]",
+        "data_in[22]",
+        "data_in[23]",
+        "data_in[24]",
+        "data_in[20]",
+        "data_in[25]",
+        "data_in[26]",
+        "data_in[10]",
+        "data_in[27]",
+        "data_in[28]",
+        "data_in[30]",
+        "data_in[29]",
+        "data_in[31]",
+        "data_in[11]",
+        "data_in[7]",
+        "data_in[8]",
+        "data_in[9]",
+        "data_in[12]",
+        "data_in[1]",
+        "data_in[3]",
+        "data_in[5]",
+        "data_in[14]",
+        "data_in[16]",
+        "data_in[6]",
+        "data_in[0]",
+        "data_in[19]",
+        "data_in[2]",
+        "data_in[4]",
+        "data_in[13]",
+        "data_in[15]",
+        "data_in[17]",
+        "opcode[6]",
+        "immediateI[3]",
+        "rs2[4]",
+        "immediateI[4]",
+        "immediateS[11]",
+        "funct3[0]",
+        "rs2[0]",
+        "rs1[3]",
+        "funct3[2]",
+        "opcode[1]",
+        "opcode[3]",
+        "opcode[5]",
+        "rs1[1]",
+        "funct3[1]",
+        "opcode[0]",
+        "opcode[2]",
+        "opcode[4]",
+        "rs1[0]",
+        "rs1[2]",
+        "rs1[4]",
+        "immediateB[3]",
+        "immediateS[1]",
+        "rd[2]",
+        "immediateI[0]",
+        "immediateI[1]",
+        "immediateI[2]",
+        "funct7[3]",
+        "immediateS[7]",
+        "immediateB[10]",
+        "immediateS[0]",
+        "rd[0]",
+        "immediateB[0]",
+        "immediateB[1]",
+        "immediateS[2]",
+        "rd[1]",
+        "immediateB[2]",
+        "immediateS[3]",
+        "rd[3]",
+        "immediateS[4]",
+        "rd[4]",
+        "rs2[1]",
+        "rs2[2]",
+        "rs2[3]",
+        "immediateB[4]",
+        "funct7[4]",
+        "immediateI[11]",
+        "immediateS[6]",
+        "funct7[1]",
+        "immediateB[5]",
+        "immediateI[6]",
+        "funct7[5]",
+        "immediateB[9]",
+        "immediateI[10]",
+        "immediateS[10]",
+        "funct7[0]",
+        "immediateI[5]",
+        "immediateS[5]",
+        "funct7[2]",
+        "immediateB[6]",
+        "immediateB[7]",
+        "immediateI[7]",
+        "immediateI[8]",
+        "immediateS[8]",
+        "immediateB[8]",
+        "immediateI[9]",
+        "immediateS[9]",
+        "funct7[6]",
+        "immediateB[11]",
+        "VGND",
+        "VPWR"
+      ], [
+        "data_in[18]",
+        "data_in[21]",
+        "data_in[22]",
+        "data_in[23]",
+        "data_in[24]",
+        "data_in[20]",
+        "data_in[25]",
+        "data_in[26]",
+        "data_in[10]",
+        "data_in[27]",
+        "data_in[28]",
+        "data_in[30]",
+        "data_in[29]",
+        "data_in[31]",
+        "data_in[11]",
+        "data_in[7]",
+        "data_in[8]",
+        "data_in[9]",
+        "data_in[12]",
+        "data_in[1]",
+        "data_in[3]",
+        "data_in[5]",
+        "data_in[14]",
+        "data_in[16]",
+        "data_in[6]",
+        "data_in[0]",
+        "data_in[19]",
+        "data_in[2]",
+        "data_in[4]",
+        "data_in[13]",
+        "data_in[15]",
+        "data_in[17]",
+        "opcode[6]",
+        "immediateI[3]",
+        "rs2[4]",
+        "immediateI[4]",
+        "immediateS[11]",
+        "funct3[0]",
+        "rs2[0]",
+        "rs1[3]",
+        "funct3[2]",
+        "opcode[1]",
+        "opcode[3]",
+        "opcode[5]",
+        "rs1[1]",
+        "funct3[1]",
+        "opcode[0]",
+        "opcode[2]",
+        "opcode[4]",
+        "rs1[0]",
+        "rs1[2]",
+        "rs1[4]",
+        "immediateB[3]",
+        "immediateS[1]",
+        "rd[2]",
+        "immediateI[0]",
+        "immediateI[1]",
+        "immediateI[2]",
+        "funct7[3]",
+        "immediateS[7]",
+        "immediateB[10]",
+        "immediateS[0]",
+        "rd[0]",
+        "immediateB[0]",
+        "immediateB[1]",
+        "immediateS[2]",
+        "rd[1]",
+        "immediateB[2]",
+        "immediateS[3]",
+        "rd[3]",
+        "immediateS[4]",
+        "rd[4]",
+        "rs2[1]",
+        "rs2[2]",
+        "rs2[3]",
+        "immediateB[4]",
+        "funct7[4]",
+        "immediateI[11]",
+        "immediateS[6]",
+        "funct7[1]",
+        "immediateB[5]",
+        "immediateI[6]",
+        "funct7[5]",
+        "immediateB[9]",
+        "immediateI[10]",
+        "immediateS[10]",
+        "funct7[0]",
+        "immediateI[5]",
+        "immediateS[5]",
+        "funct7[2]",
+        "immediateB[6]",
+        "immediateB[7]",
+        "immediateI[7]",
+        "immediateI[8]",
+        "immediateS[8]",
+        "immediateB[8]",
+        "immediateI[9]",
+        "immediateS[9]",
+        "funct7[6]",
+        "immediateB[11]",
+        "VGND",
+        "VPWR"
+      ]
+   ]
+  }
+]

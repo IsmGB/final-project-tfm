@@ -1,0 +1,23 @@
+
+53. Printing statistics.
+
+=== control_unity ===
+
+   Number of wires:                251
+   Number of wire bits:            275
+   Number of public wires:          12
+   Number of public wire bits:      31
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                216
+     $_ANDNOT_                      34
+     $_AND_                          2
+     $_MUX_                         21
+     $_NAND_                         3
+     $_NOR_                         23
+     $_NOT_                          4
+     $_ORNOT_                       25
+     $_OR_                          90
+     sky130_fd_sc_hd__dlxtn_1       14
+

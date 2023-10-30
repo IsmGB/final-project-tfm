@@ -1,0 +1,735 @@
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2020  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.27+30 (git sha1 101075611, gcc 11.3.0-1ubuntu1~22.04.1 -fPIC -Os)
+
+[TCL: yosys -import] Command name collision: found pre-existing command `cd' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `eval' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `exec' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `read' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `trace' -> skip.
+
+1. Executing Verilog-2005 frontend: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/instruction_coder/src/instruction_coder.v
+Parsing SystemVerilog input from `/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/instruction_coder/src/instruction_coder.v' to AST representation.
+Generating RTLIL representation for module `\instruction_coder'.
+Successfully finished Verilog frontend.
+
+2. Generating Graphviz representation of design.
+Writing dot description to `/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/instruction_coder/runs/instruction_coder_flow/tmp/synthesis/hierarchy.dot'.
+Dumping module instruction_coder to page 1.
+
+3. Executing HIERARCHY pass (managing design hierarchy).
+
+3.1. Analyzing design hierarchy..
+Top module:  \instruction_coder
+
+3.2. Analyzing design hierarchy..
+Top module:  \instruction_coder
+Removed 0 unused modules.
+
+4. Executing TRIBUF pass.
+
+5. Executing HIERARCHY pass (managing design hierarchy).
+
+5.1. Analyzing design hierarchy..
+Top module:  \instruction_coder
+
+5.2. Analyzing design hierarchy..
+Top module:  \instruction_coder
+Removed 0 unused modules.
+
+6. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+7. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+8. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 9 assignments to connections.
+
+9. Executing PROC_INIT pass (extract init attributes).
+
+10. Executing PROC_ARST pass (detect async resets in processes).
+
+11. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+
+12. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\instruction_coder.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/instruction_coder/src/instruction_coder.v:13$1'.
+
+13. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\instruction_coder.\funct7' from process `\instruction_coder.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/instruction_coder/src/instruction_coder.v:13$1'.
+No latch inferred for signal `\instruction_coder.\funct3' from process `\instruction_coder.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/instruction_coder/src/instruction_coder.v:13$1'.
+No latch inferred for signal `\instruction_coder.\opcode' from process `\instruction_coder.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/instruction_coder/src/instruction_coder.v:13$1'.
+No latch inferred for signal `\instruction_coder.\rd' from process `\instruction_coder.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/instruction_coder/src/instruction_coder.v:13$1'.
+No latch inferred for signal `\instruction_coder.\rs1' from process `\instruction_coder.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/instruction_coder/src/instruction_coder.v:13$1'.
+No latch inferred for signal `\instruction_coder.\rs2' from process `\instruction_coder.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/instruction_coder/src/instruction_coder.v:13$1'.
+No latch inferred for signal `\instruction_coder.\immediateI' from process `\instruction_coder.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/instruction_coder/src/instruction_coder.v:13$1'.
+No latch inferred for signal `\instruction_coder.\immediateS' from process `\instruction_coder.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/instruction_coder/src/instruction_coder.v:13$1'.
+No latch inferred for signal `\instruction_coder.\immediateB' from process `\instruction_coder.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/instruction_coder/src/instruction_coder.v:13$1'.
+
+14. Executing PROC_DFF pass (convert process syncs to FFs).
+
+15. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+16. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Removing empty process `instruction_coder.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/instruction_coder/src/instruction_coder.v:13$1'.
+Cleaned up 0 empty switches.
+
+17. Executing OPT_EXPR pass (perform const folding).
+Optimizing module instruction_coder.
+
+18. Executing FLATTEN pass (flatten design).
+
+19. Executing OPT_EXPR pass (perform const folding).
+Optimizing module instruction_coder.
+
+20. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \instruction_coder..
+Removed 0 unused cells and 9 unused wires.
+<suppressed ~1 debug messages>
+
+21. Executing CHECK pass (checking for obvious problems).
+Checking module instruction_coder...
+Found and reported 0 problems.
+
+22. Executing OPT pass (performing simple optimizations).
+
+22.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module instruction_coder.
+
+22.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\instruction_coder'.
+Removed a total of 0 cells.
+
+22.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \instruction_coder..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+22.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \instruction_coder.
+Performed a total of 0 changes.
+
+22.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\instruction_coder'.
+Removed a total of 0 cells.
+
+22.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+22.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \instruction_coder..
+
+22.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module instruction_coder.
+
+22.9. Finished OPT passes. (There is nothing left to do.)
+
+23. Executing FSM pass (extract and optimize FSM).
+
+23.1. Executing FSM_DETECT pass (finding FSMs in design).
+
+23.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+
+23.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+23.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \instruction_coder..
+
+23.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+23.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+
+23.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+
+23.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+
+24. Executing OPT pass (performing simple optimizations).
+
+24.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module instruction_coder.
+
+24.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\instruction_coder'.
+Removed a total of 0 cells.
+
+24.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \instruction_coder..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+24.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \instruction_coder.
+Performed a total of 0 changes.
+
+24.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\instruction_coder'.
+Removed a total of 0 cells.
+
+24.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+24.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \instruction_coder..
+
+24.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module instruction_coder.
+
+24.9. Finished OPT passes. (There is nothing left to do.)
+
+25. Executing WREDUCE pass (reducing word size of cells).
+
+26. Executing PEEPOPT pass (run peephole optimizers).
+
+27. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \instruction_coder..
+
+28. Executing ALUMACC pass (create $alu and $macc cells).
+Extracting $alu and $macc cells in module instruction_coder:
+  created 0 $alu and 0 $macc cells.
+
+29. Executing SHARE pass (SAT-based resource sharing).
+
+30. Executing OPT pass (performing simple optimizations).
+
+30.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module instruction_coder.
+
+30.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\instruction_coder'.
+Removed a total of 0 cells.
+
+30.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \instruction_coder..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+30.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \instruction_coder.
+Performed a total of 0 changes.
+
+30.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\instruction_coder'.
+Removed a total of 0 cells.
+
+30.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+30.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \instruction_coder..
+
+30.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module instruction_coder.
+
+30.9. Finished OPT passes. (There is nothing left to do.)
+
+31. Executing MEMORY pass.
+
+31.1. Executing OPT_MEM pass (optimize memories).
+Performed a total of 0 transformations.
+
+31.2. Executing OPT_MEM_PRIORITY pass (removing unnecessary memory write priority relations).
+Performed a total of 0 transformations.
+
+31.3. Executing OPT_MEM_FEEDBACK pass (finding memory read-to-write feedback paths).
+
+31.4. Executing MEMORY_BMUX2ROM pass (converting muxes to ROMs).
+
+31.5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).
+
+31.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \instruction_coder..
+
+31.7. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+
+31.8. Executing OPT_MEM_WIDEN pass (optimize memories where all ports are wide).
+Performed a total of 0 transformations.
+
+31.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \instruction_coder..
+
+31.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+32. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \instruction_coder..
+
+33. Executing OPT pass (performing simple optimizations).
+
+33.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module instruction_coder.
+
+33.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\instruction_coder'.
+Removed a total of 0 cells.
+
+33.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+33.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \instruction_coder..
+
+33.5. Finished fast OPT passes.
+
+34. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+
+35. Executing OPT pass (performing simple optimizations).
+
+35.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module instruction_coder.
+
+35.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\instruction_coder'.
+Removed a total of 0 cells.
+
+35.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \instruction_coder..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+35.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \instruction_coder.
+Performed a total of 0 changes.
+
+35.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\instruction_coder'.
+Removed a total of 0 cells.
+
+35.6. Executing OPT_SHARE pass.
+
+35.7. Executing OPT_DFF pass (perform DFF optimizations).
+
+35.8. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \instruction_coder..
+
+35.9. Executing OPT_EXPR pass (perform const folding).
+Optimizing module instruction_coder.
+
+35.10. Finished OPT passes. (There is nothing left to do.)
+
+36. Executing TECHMAP pass (map to technology primitives).
+
+36.1. Executing Verilog-2005 frontend: /foss/tools/yosys/1010756/bin/../share/yosys/techmap.v
+Parsing Verilog input from `/foss/tools/yosys/1010756/bin/../share/yosys/techmap.v' to AST representation.
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `\$__div_mod_u'.
+Generating RTLIL representation for module `\$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `\$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_pmux'.
+Generating RTLIL representation for module `\_90_demux'.
+Generating RTLIL representation for module `\_90_lut'.
+Successfully finished Verilog frontend.
+
+36.2. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~73 debug messages>
+
+37. Executing OPT pass (performing simple optimizations).
+
+37.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module instruction_coder.
+
+37.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\instruction_coder'.
+Removed a total of 0 cells.
+
+37.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+37.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \instruction_coder..
+
+37.5. Finished fast OPT passes.
+
+38. Executing ABC pass (technology mapping using ABC).
+
+38.1. Extracting gate netlist of module `\instruction_coder' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+39. Executing OPT pass (performing simple optimizations).
+
+39.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module instruction_coder.
+
+39.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\instruction_coder'.
+Removed a total of 0 cells.
+
+39.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+39.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \instruction_coder..
+
+39.5. Finished fast OPT passes.
+
+40. Executing HIERARCHY pass (managing design hierarchy).
+
+40.1. Analyzing design hierarchy..
+Top module:  \instruction_coder
+
+40.2. Analyzing design hierarchy..
+Top module:  \instruction_coder
+Removed 0 unused modules.
+
+41. Printing statistics.
+
+=== instruction_coder ===
+
+   Number of wires:                 10
+   Number of wire bits:            100
+   Number of public wires:          10
+   Number of public wire bits:     100
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  0
+
+42. Executing CHECK pass (checking for obvious problems).
+Checking module instruction_coder...
+Found and reported 0 problems.
+
+43. Generating Graphviz representation of design.
+Writing dot description to `/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/instruction_coder/runs/instruction_coder_flow/tmp/synthesis/post_techmap.dot'.
+Dumping module instruction_coder to page 1.
+
+44. Executing SHARE pass (SAT-based resource sharing).
+
+45. Executing OPT pass (performing simple optimizations).
+
+45.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module instruction_coder.
+
+45.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\instruction_coder'.
+Removed a total of 0 cells.
+
+45.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \instruction_coder..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+45.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \instruction_coder.
+Performed a total of 0 changes.
+
+45.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\instruction_coder'.
+Removed a total of 0 cells.
+
+45.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+45.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \instruction_coder..
+
+45.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module instruction_coder.
+
+45.9. Finished OPT passes. (There is nothing left to do.)
+
+46. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \instruction_coder..
+
+47. Printing statistics.
+
+=== instruction_coder ===
+
+   Number of wires:                 10
+   Number of wire bits:            100
+   Number of public wires:          10
+   Number of public wire bits:     100
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  0
+
+mapping tbuf
+
+48. Executing TECHMAP pass (map to technology primitives).
+
+48.1. Executing Verilog-2005 frontend: /foss/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tribuff_map.v
+Parsing Verilog input from `/foss/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tribuff_map.v' to AST representation.
+Generating RTLIL representation for module `\$_TBUF_'.
+Successfully finished Verilog frontend.
+
+48.2. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~3 debug messages>
+
+49. Executing SIMPLEMAP pass (map simple cells to gate primitives).
+
+50. Executing TECHMAP pass (map to technology primitives).
+
+50.1. Executing Verilog-2005 frontend: /foss/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/latch_map.v
+Parsing Verilog input from `/foss/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/latch_map.v' to AST representation.
+Generating RTLIL representation for module `\$_DLATCH_P_'.
+Generating RTLIL representation for module `\$_DLATCH_N_'.
+Successfully finished Verilog frontend.
+
+50.2. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~4 debug messages>
+
+51. Executing SIMPLEMAP pass (map simple cells to gate primitives).
+
+52. Executing DFFLIBMAP pass (mapping DFF cells to sequential cells from liberty file).
+  cell sky130_fd_sc_hd__dfxtp_2 (noninv, pins=3, area=21.27) is a direct match for cell type $_DFF_P_.
+  cell sky130_fd_sc_hd__dfrtp_2 (noninv, pins=4, area=26.28) is a direct match for cell type $_DFF_PN0_.
+  cell sky130_fd_sc_hd__dfstp_2 (noninv, pins=4, area=26.28) is a direct match for cell type $_DFF_PN1_.
+  cell sky130_fd_sc_hd__dfbbn_2 (noninv, pins=6, area=35.03) is a direct match for cell type $_DFFSR_NNN_.
+  final dff cell mappings:
+    unmapped dff cell: $_DFF_N_
+    \sky130_fd_sc_hd__dfxtp_2 _DFF_P_ (.CLK( C), .D( D), .Q( Q));
+    unmapped dff cell: $_DFF_NN0_
+    unmapped dff cell: $_DFF_NN1_
+    unmapped dff cell: $_DFF_NP0_
+    unmapped dff cell: $_DFF_NP1_
+    \sky130_fd_sc_hd__dfrtp_2 _DFF_PN0_ (.CLK( C), .D( D), .Q( Q), .RESET_B( R));
+    \sky130_fd_sc_hd__dfstp_2 _DFF_PN1_ (.CLK( C), .D( D), .Q( Q), .SET_B( R));
+    unmapped dff cell: $_DFF_PP0_
+    unmapped dff cell: $_DFF_PP1_
+    \sky130_fd_sc_hd__dfbbn_2 _DFFSR_NNN_ (.CLK_N( C), .D( D), .Q( Q), .Q_N(~Q), .RESET_B( R), .SET_B( S));
+    unmapped dff cell: $_DFFSR_NNP_
+    unmapped dff cell: $_DFFSR_NPN_
+    unmapped dff cell: $_DFFSR_NPP_
+    unmapped dff cell: $_DFFSR_PNN_
+    unmapped dff cell: $_DFFSR_PNP_
+    unmapped dff cell: $_DFFSR_PPN_
+    unmapped dff cell: $_DFFSR_PPP_
+
+52.1. Executing DFFLEGALIZE pass (convert FFs to types supported by the target).
+Mapping DFF cells in module `\instruction_coder':
+
+53. Printing statistics.
+
+=== instruction_coder ===
+
+   Number of wires:                 10
+   Number of wire bits:            100
+   Number of public wires:          10
+   Number of public wire bits:     100
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  0
+
+[INFO]: USING STRATEGY AREA 0
+
+54. Executing ABC pass (technology mapping using ABC).
+
+54.1. Extracting gate netlist of module `\instruction_coder' to `/tmp/yosys-abc-j1KU0e/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+55. Executing SETUNDEF pass (replace undef values with defined constants).
+
+56. Executing HILOMAP pass (mapping to constant drivers).
+
+57. Executing SPLITNETS pass (splitting up multi-bit signals).
+
+58. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \instruction_coder..
+
+59. Executing INSBUF pass (insert buffer cells for connected wires).
+Add instruction_coder/$auto$insbuf.cc:97:execute$82: \data_in [12] -> \funct3 [0]
+Add instruction_coder/$auto$insbuf.cc:97:execute$83: \data_in [13] -> \funct3 [1]
+Add instruction_coder/$auto$insbuf.cc:97:execute$84: \data_in [14] -> \funct3 [2]
+Add instruction_coder/$auto$insbuf.cc:97:execute$85: \data_in [25] -> \funct7 [0]
+Add instruction_coder/$auto$insbuf.cc:97:execute$86: \data_in [26] -> \funct7 [1]
+Add instruction_coder/$auto$insbuf.cc:97:execute$87: \data_in [27] -> \funct7 [2]
+Add instruction_coder/$auto$insbuf.cc:97:execute$88: \data_in [28] -> \funct7 [3]
+Add instruction_coder/$auto$insbuf.cc:97:execute$89: \data_in [29] -> \funct7 [4]
+Add instruction_coder/$auto$insbuf.cc:97:execute$90: \data_in [30] -> \funct7 [5]
+Add instruction_coder/$auto$insbuf.cc:97:execute$91: \data_in [31] -> \funct7 [6]
+Add instruction_coder/$auto$insbuf.cc:97:execute$92: \data_in [8] -> \immediateB [0]
+Add instruction_coder/$auto$insbuf.cc:97:execute$93: \data_in [9] -> \immediateB [1]
+Add instruction_coder/$auto$insbuf.cc:97:execute$94: \data_in [10] -> \immediateB [2]
+Add instruction_coder/$auto$insbuf.cc:97:execute$95: \data_in [11] -> \immediateB [3]
+Add instruction_coder/$auto$insbuf.cc:97:execute$96: \data_in [25] -> \immediateB [4]
+Add instruction_coder/$auto$insbuf.cc:97:execute$97: \data_in [26] -> \immediateB [5]
+Add instruction_coder/$auto$insbuf.cc:97:execute$98: \data_in [27] -> \immediateB [6]
+Add instruction_coder/$auto$insbuf.cc:97:execute$99: \data_in [28] -> \immediateB [7]
+Add instruction_coder/$auto$insbuf.cc:97:execute$100: \data_in [29] -> \immediateB [8]
+Add instruction_coder/$auto$insbuf.cc:97:execute$101: \data_in [30] -> \immediateB [9]
+Add instruction_coder/$auto$insbuf.cc:97:execute$102: \data_in [7] -> \immediateB [10]
+Add instruction_coder/$auto$insbuf.cc:97:execute$103: \data_in [31] -> \immediateB [11]
+Add instruction_coder/$auto$insbuf.cc:97:execute$104: \data_in [20] -> \immediateI [0]
+Add instruction_coder/$auto$insbuf.cc:97:execute$105: \data_in [21] -> \immediateI [1]
+Add instruction_coder/$auto$insbuf.cc:97:execute$106: \data_in [22] -> \immediateI [2]
+Add instruction_coder/$auto$insbuf.cc:97:execute$107: \data_in [23] -> \immediateI [3]
+Add instruction_coder/$auto$insbuf.cc:97:execute$108: \data_in [24] -> \immediateI [4]
+Add instruction_coder/$auto$insbuf.cc:97:execute$109: \data_in [25] -> \immediateI [5]
+Add instruction_coder/$auto$insbuf.cc:97:execute$110: \data_in [26] -> \immediateI [6]
+Add instruction_coder/$auto$insbuf.cc:97:execute$111: \data_in [27] -> \immediateI [7]
+Add instruction_coder/$auto$insbuf.cc:97:execute$112: \data_in [28] -> \immediateI [8]
+Add instruction_coder/$auto$insbuf.cc:97:execute$113: \data_in [29] -> \immediateI [9]
+Add instruction_coder/$auto$insbuf.cc:97:execute$114: \data_in [30] -> \immediateI [10]
+Add instruction_coder/$auto$insbuf.cc:97:execute$115: \data_in [31] -> \immediateI [11]
+Add instruction_coder/$auto$insbuf.cc:97:execute$116: \data_in [7] -> \immediateS [0]
+Add instruction_coder/$auto$insbuf.cc:97:execute$117: \data_in [8] -> \immediateS [1]
+Add instruction_coder/$auto$insbuf.cc:97:execute$118: \data_in [9] -> \immediateS [2]
+Add instruction_coder/$auto$insbuf.cc:97:execute$119: \data_in [10] -> \immediateS [3]
+Add instruction_coder/$auto$insbuf.cc:97:execute$120: \data_in [11] -> \immediateS [4]
+Add instruction_coder/$auto$insbuf.cc:97:execute$121: \data_in [25] -> \immediateS [5]
+Add instruction_coder/$auto$insbuf.cc:97:execute$122: \data_in [26] -> \immediateS [6]
+Add instruction_coder/$auto$insbuf.cc:97:execute$123: \data_in [27] -> \immediateS [7]
+Add instruction_coder/$auto$insbuf.cc:97:execute$124: \data_in [28] -> \immediateS [8]
+Add instruction_coder/$auto$insbuf.cc:97:execute$125: \data_in [29] -> \immediateS [9]
+Add instruction_coder/$auto$insbuf.cc:97:execute$126: \data_in [30] -> \immediateS [10]
+Add instruction_coder/$auto$insbuf.cc:97:execute$127: \data_in [31] -> \immediateS [11]
+Add instruction_coder/$auto$insbuf.cc:97:execute$128: \data_in [0] -> \opcode [0]
+Add instruction_coder/$auto$insbuf.cc:97:execute$129: \data_in [1] -> \opcode [1]
+Add instruction_coder/$auto$insbuf.cc:97:execute$130: \data_in [2] -> \opcode [2]
+Add instruction_coder/$auto$insbuf.cc:97:execute$131: \data_in [3] -> \opcode [3]
+Add instruction_coder/$auto$insbuf.cc:97:execute$132: \data_in [4] -> \opcode [4]
+Add instruction_coder/$auto$insbuf.cc:97:execute$133: \data_in [5] -> \opcode [5]
+Add instruction_coder/$auto$insbuf.cc:97:execute$134: \data_in [6] -> \opcode [6]
+Add instruction_coder/$auto$insbuf.cc:97:execute$135: \data_in [7] -> \rd [0]
+Add instruction_coder/$auto$insbuf.cc:97:execute$136: \data_in [8] -> \rd [1]
+Add instruction_coder/$auto$insbuf.cc:97:execute$137: \data_in [9] -> \rd [2]
+Add instruction_coder/$auto$insbuf.cc:97:execute$138: \data_in [10] -> \rd [3]
+Add instruction_coder/$auto$insbuf.cc:97:execute$139: \data_in [11] -> \rd [4]
+Add instruction_coder/$auto$insbuf.cc:97:execute$140: \data_in [15] -> \rs1 [0]
+Add instruction_coder/$auto$insbuf.cc:97:execute$141: \data_in [16] -> \rs1 [1]
+Add instruction_coder/$auto$insbuf.cc:97:execute$142: \data_in [17] -> \rs1 [2]
+Add instruction_coder/$auto$insbuf.cc:97:execute$143: \data_in [18] -> \rs1 [3]
+Add instruction_coder/$auto$insbuf.cc:97:execute$144: \data_in [19] -> \rs1 [4]
+Add instruction_coder/$auto$insbuf.cc:97:execute$145: \data_in [20] -> \rs2 [0]
+Add instruction_coder/$auto$insbuf.cc:97:execute$146: \data_in [21] -> \rs2 [1]
+Add instruction_coder/$auto$insbuf.cc:97:execute$147: \data_in [22] -> \rs2 [2]
+Add instruction_coder/$auto$insbuf.cc:97:execute$148: \data_in [23] -> \rs2 [3]
+Add instruction_coder/$auto$insbuf.cc:97:execute$149: \data_in [24] -> \rs2 [4]
+
+60. Executing CHECK pass (checking for obvious problems).
+Checking module instruction_coder...
+Warning: Wire instruction_coder.\rs2 [4] is used but has no driver.
+Warning: Wire instruction_coder.\rs2 [3] is used but has no driver.
+Warning: Wire instruction_coder.\rs2 [2] is used but has no driver.
+Warning: Wire instruction_coder.\rs2 [1] is used but has no driver.
+Warning: Wire instruction_coder.\rs2 [0] is used but has no driver.
+Warning: Wire instruction_coder.\rs1 [4] is used but has no driver.
+Warning: Wire instruction_coder.\rs1 [3] is used but has no driver.
+Warning: Wire instruction_coder.\rs1 [2] is used but has no driver.
+Warning: Wire instruction_coder.\rs1 [1] is used but has no driver.
+Warning: Wire instruction_coder.\rs1 [0] is used but has no driver.
+Warning: Wire instruction_coder.\rd [4] is used but has no driver.
+Warning: Wire instruction_coder.\rd [3] is used but has no driver.
+Warning: Wire instruction_coder.\rd [2] is used but has no driver.
+Warning: Wire instruction_coder.\rd [1] is used but has no driver.
+Warning: Wire instruction_coder.\rd [0] is used but has no driver.
+Warning: Wire instruction_coder.\opcode [6] is used but has no driver.
+Warning: Wire instruction_coder.\opcode [5] is used but has no driver.
+Warning: Wire instruction_coder.\opcode [4] is used but has no driver.
+Warning: Wire instruction_coder.\opcode [3] is used but has no driver.
+Warning: Wire instruction_coder.\opcode [2] is used but has no driver.
+Warning: Wire instruction_coder.\opcode [1] is used but has no driver.
+Warning: Wire instruction_coder.\opcode [0] is used but has no driver.
+Warning: Wire instruction_coder.\immediateS [11] is used but has no driver.
+Warning: Wire instruction_coder.\immediateS [10] is used but has no driver.
+Warning: Wire instruction_coder.\immediateS [9] is used but has no driver.
+Warning: Wire instruction_coder.\immediateS [8] is used but has no driver.
+Warning: Wire instruction_coder.\immediateS [7] is used but has no driver.
+Warning: Wire instruction_coder.\immediateS [6] is used but has no driver.
+Warning: Wire instruction_coder.\immediateS [5] is used but has no driver.
+Warning: Wire instruction_coder.\immediateS [4] is used but has no driver.
+Warning: Wire instruction_coder.\immediateS [3] is used but has no driver.
+Warning: Wire instruction_coder.\immediateS [2] is used but has no driver.
+Warning: Wire instruction_coder.\immediateS [1] is used but has no driver.
+Warning: Wire instruction_coder.\immediateS [0] is used but has no driver.
+Warning: Wire instruction_coder.\immediateI [11] is used but has no driver.
+Warning: Wire instruction_coder.\immediateI [10] is used but has no driver.
+Warning: Wire instruction_coder.\immediateI [9] is used but has no driver.
+Warning: Wire instruction_coder.\immediateI [8] is used but has no driver.
+Warning: Wire instruction_coder.\immediateI [7] is used but has no driver.
+Warning: Wire instruction_coder.\immediateI [6] is used but has no driver.
+Warning: Wire instruction_coder.\immediateI [5] is used but has no driver.
+Warning: Wire instruction_coder.\immediateI [4] is used but has no driver.
+Warning: Wire instruction_coder.\immediateI [3] is used but has no driver.
+Warning: Wire instruction_coder.\immediateI [2] is used but has no driver.
+Warning: Wire instruction_coder.\immediateI [1] is used but has no driver.
+Warning: Wire instruction_coder.\immediateI [0] is used but has no driver.
+Warning: Wire instruction_coder.\immediateB [11] is used but has no driver.
+Warning: Wire instruction_coder.\immediateB [10] is used but has no driver.
+Warning: Wire instruction_coder.\immediateB [9] is used but has no driver.
+Warning: Wire instruction_coder.\immediateB [8] is used but has no driver.
+Warning: Wire instruction_coder.\immediateB [7] is used but has no driver.
+Warning: Wire instruction_coder.\immediateB [6] is used but has no driver.
+Warning: Wire instruction_coder.\immediateB [5] is used but has no driver.
+Warning: Wire instruction_coder.\immediateB [4] is used but has no driver.
+Warning: Wire instruction_coder.\immediateB [3] is used but has no driver.
+Warning: Wire instruction_coder.\immediateB [2] is used but has no driver.
+Warning: Wire instruction_coder.\immediateB [1] is used but has no driver.
+Warning: Wire instruction_coder.\immediateB [0] is used but has no driver.
+Warning: Wire instruction_coder.\funct7 [6] is used but has no driver.
+Warning: Wire instruction_coder.\funct7 [5] is used but has no driver.
+Warning: Wire instruction_coder.\funct7 [4] is used but has no driver.
+Warning: Wire instruction_coder.\funct7 [3] is used but has no driver.
+Warning: Wire instruction_coder.\funct7 [2] is used but has no driver.
+Warning: Wire instruction_coder.\funct7 [1] is used but has no driver.
+Warning: Wire instruction_coder.\funct7 [0] is used but has no driver.
+Warning: Wire instruction_coder.\funct3 [2] is used but has no driver.
+Warning: Wire instruction_coder.\funct3 [1] is used but has no driver.
+Warning: Wire instruction_coder.\funct3 [0] is used but has no driver.
+Found and reported 68 problems.
+
+61. Printing statistics.
+
+=== instruction_coder ===
+
+   Number of wires:                 10
+   Number of wire bits:            100
+   Number of public wires:          10
+   Number of public wire bits:     100
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 68
+     sky130_fd_sc_hd__buf_2         68
+
+   Chip area for module '\instruction_coder': 340.326400
+
+62. Executing Verilog backend.
+Dumping module `\instruction_coder'.
+
+Warnings: 68 unique messages, 68 total
+End of script. Logfile hash: e68948a1db, CPU: user 0.23s system 0.01s, MEM: 27.97 MB peak
+Yosys 0.27+30 (git sha1 101075611, gcc 11.3.0-1ubuntu1~22.04.1 -fPIC -Os)
+Time spent: 41% 4x stat (0 sec), 39% 1x dfflibmap (0 sec), ...

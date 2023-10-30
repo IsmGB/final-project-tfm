@@ -1,0 +1,21 @@
+{
+    "DESIGN_NAME": "sistem",
+    "VERILOG_FILES": "dir::src/*.v",
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 30.0,
+    "DESIGN_IS_CORE": true,
+    
+    "EXTRA_LEFS": "dir::macro/lef/*.lef",
+    "EXTRA_GDS_FILES": "dir::macro/gds/*.gds",
+    "VERILOG_FILES_BLACKBOX": "dir::macro/bb/*.v",
+    
+    "PL_MACRO_HALO": "10 10",
+    "PL_MACRO_CHANNEL": "10 10",
+    "FP_SIZING": "absolute",
+    "DIE_AREA": "0 0 1927.605 2321.635",
+    "MACRO_PLACEMENT_CFG": "dir::macro.cfg",
+    
+    "FP_PDN_CORE_RING": true,
+    
+    "RUN_KLAYOUT_XOR": false
+}

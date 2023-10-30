@@ -1,0 +1,24 @@
+OpenROAD v2.0-8236-g9a713f0e8 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO]: Reading ODB at '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/alu/runs/alu_flow/tmp/placement/9-resizer.odb'…
+define_corners Typical
+read_liberty -corner Typical /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL           43778.7 u
+legalized HPWL          44669.2 u
+delta HPWL                    2 %
+
+[INFO DPL-0020] Mirrored 529 instances
+[INFO DPL-0021] HPWL before           44669.2 u
+[INFO DPL-0022] HPWL after            43778.7 u
+[INFO DPL-0023] HPWL delta               -2.0 %
+Setting global connections for newly added cells…
+Writing OpenROAD database to '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/alu/runs/alu_flow/results/placement/alu.odb'…
+Writing netlist to '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/alu/runs/alu_flow/results/placement/alu.nl.v'…
+Writing powered netlist to '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/alu/runs/alu_flow/results/placement/alu.pnl.v'…
+Writing layout to '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/alu/runs/alu_flow/results/placement/alu.def'…

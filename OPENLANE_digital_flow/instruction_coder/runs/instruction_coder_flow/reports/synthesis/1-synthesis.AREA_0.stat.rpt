@@ -1,0 +1,17 @@
+
+61. Printing statistics.
+
+=== instruction_coder ===
+
+   Number of wires:                 10
+   Number of wire bits:            100
+   Number of public wires:          10
+   Number of public wire bits:     100
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 68
+     sky130_fd_sc_hd__buf_2         68
+
+   Chip area for module '\instruction_coder': 340.326400
+

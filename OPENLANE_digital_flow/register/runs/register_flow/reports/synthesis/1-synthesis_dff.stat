@@ -1,0 +1,23 @@
+
+53. Printing statistics.
+
+=== register ===
+
+   Number of wires:               4165
+   Number of wire bits:           5355
+   Number of public wires:          42
+   Number of public wire bits:    1170
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               5274
+     $_ANDNOT_                      34
+     $_AND_                          2
+     $_MUX_                       4002
+     $_NAND_                         2
+     $_NOR_                          2
+     $_NOT_                         65
+     $_ORNOT_                        5
+     $_OR_                          73
+     sky130_fd_sc_hd__dfxtp_2     1089
+

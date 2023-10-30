@@ -1,0 +1,279 @@
+OpenROAD v2.0-8236-g9a713f0e8 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO]: Reading ODB at '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/control_unity/runs/control_unity_flow/tmp/placement/7-global.odb'…
+define_corners Typical
+read_liberty -corner Typical /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+[INFO]: Setting RC values...
+min_report
+
+===========================================================================
+report_checks -path_delay min (Hold)
+============================================================================
+======================= Typical Corner ===================================
+
+No paths found.
+
+min_report_end
+max_report
+
+===========================================================================
+report_checks -path_delay max (Setup)
+============================================================================
+======================= Typical Corner ===================================
+
+No paths found.
+
+max_report_end
+checks_report
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= Typical Corner ===================================
+
+Startpoint: opcode[1] (input port clocked by __VIRTUAL_CLK__)
+Endpoint: _112_ (negative level-sensitive latch)
+Path Group: unconstrained
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          2.00    2.00 ^ input external delay
+                  0.05    0.04    2.04 ^ opcode[1] (in)
+     1    0.01                           opcode[1] (net)
+                  0.05    0.00    2.04 ^ _059_/C_N (sky130_fd_sc_hd__or4bb_2)
+                  0.15    0.72    2.76 v _059_/X (sky130_fd_sc_hd__or4bb_2)
+     5    0.02                           _022_ (net)
+                  0.15    0.00    2.76 v _078_/D (sky130_fd_sc_hd__or4_2)
+                  0.17    0.71    3.47 v _078_/X (sky130_fd_sc_hd__or4_2)
+     5    0.02                           _039_ (net)
+                  0.17    0.00    3.47 v _079_/B1 (sky130_fd_sc_hd__a21oi_2)
+                  0.18    0.23    3.70 ^ _079_/Y (sky130_fd_sc_hd__a21oi_2)
+     3    0.01                           _040_ (net)
+                  0.18    0.00    3.70 ^ _089_/B (sky130_fd_sc_hd__or2_2)
+                  0.03    0.14    3.84 ^ _089_/X (sky130_fd_sc_hd__or2_2)
+     1    0.00                           _045_ (net)
+                  0.03    0.00    3.84 ^ _090_/A (sky130_fd_sc_hd__buf_1)
+                  0.09    0.11    3.96 ^ _090_/X (sky130_fd_sc_hd__buf_1)
+     2    0.01                           _013_ (net)
+                  0.09    0.00    3.96 ^ _112_/D (sky130_fd_sc_hd__dlxtn_1)
+                                  3.96   data arrival time
+-----------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= Typical Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= Typical Corner ===================================
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 87 unannotated drivers.
+ funct3[0]
+ funct3[1]
+ funct3[2]
+ funct7[0]
+ funct7[1]
+ funct7[2]
+ funct7[3]
+ funct7[4]
+ funct7[5]
+ funct7[6]
+ opcode[0]
+ opcode[1]
+ opcode[2]
+ opcode[3]
+ opcode[4]
+ opcode[5]
+ opcode[6]
+ _056_/X
+ _057_/X
+ _058_/X
+ _059_/X
+ _060_/X
+ _061_/X
+ _062_/X
+ _063_/Y
+ _064_/X
+ _065_/X
+ _066_/Y
+ _067_/X
+ _068_/Y
+ _069_/X
+ _070_/X
+ _071_/X
+ _072_/Y
+ _073_/X
+ _074_/Y
+ _075_/X
+ _076_/X
+ _077_/X
+ _078_/X
+ _079_/Y
+ _080_/Y
+ _081_/Y
+ _082_/X
+ _083_/Y
+ _084_/Y
+ _085_/X
+ _086_/Y
+ _087_/X
+ _088_/X
+ _089_/X
+ _090_/X
+ _091_/Y
+ _092_/Y
+ _093_/X
+ _094_/X
+ _095_/X
+ _096_/Y
+ _097_/Y
+ _098_/Y
+ _099_/X
+ _100_/Y
+ _101_/Y
+ _102_/X
+ _103_/X
+ _104_/Y
+ _105_/X
+ _106_/X
+ _107_/X
+ _108_/X
+ _109_/X
+ _110_/X
+ _111_/X
+ _112_/Q
+ _113_/Q
+ _114_/Q
+ _115_/Q
+ _116_/Q
+ _117_/Q
+ _118_/Q
+ _119_/Q
+ _120_/Q
+ _121_/Q
+ _122_/Q
+ _123_/Q
+ _124_/Q
+ _125_/Q
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 0
+max cap violation count 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There are 14 unclocked register/latch pins.
+  _112_/GATE_N
+  _113_/GATE_N
+  _114_/GATE_N
+  _115_/GATE_N
+  _116_/GATE_N
+  _117_/GATE_N
+  _118_/GATE_N
+  _119_/GATE_N
+  _120_/GATE_N
+  _121_/GATE_N
+  _122_/GATE_N
+  _123_/GATE_N
+  _124_/GATE_N
+  _125_/GATE_N
+Warning: There are 28 unconstrained endpoints.
+  alu_control[0]
+  alu_control[1]
+  alu_control[2]
+  alu_control[3]
+  alu_mux_in
+  alu_mux_out
+  br_enable
+  br_mux_inv
+  databus[0]
+  databus[1]
+  databus[2]
+  imm_rd
+  ram_w_enable
+  register_w_enable
+  _112_/D
+  _113_/D
+  _114_/D
+  _115_/D
+  _116_/D
+  _117_/D
+  _118_/D
+  _119_/D
+  _120_/D
+  _121_/D
+  _122_/D
+  _123_/D
+  _124_/D
+  _125_/D
+checks_report_end
+power_report
+
+===========================================================================
+ report_power
+============================================================================
+======================= Typical Corner ===================================
+
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             4.74e-06   7.92e-06   1.14e-10   1.27e-05  56.0%
+Combinational          5.65e-06   4.28e-06   5.77e-10   9.93e-06  44.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  1.04e-05   1.22e-05   6.91e-10   2.26e-05 100.0%
+                          46.0%      54.0%       0.0%
+
+power_report_end
+summary_report
+
+===========================================================================
+report_tns
+============================================================================
+tns 0.00
+
+===========================================================================
+report_wns
+============================================================================
+wns 0.00
+
+===========================================================================
+report_worst_slack -max (Setup)
+============================================================================
+worst slack INF
+
+===========================================================================
+report_worst_slack -min (Hold)
+============================================================================
+worst slack INF
+summary_report_end
+area_report
+
+===========================================================================
+report_design_area
+============================================================================
+Design area 1225 u^2 4% utilization.
+area_report_end
+[WARNING] Did not save OpenROAD database!
+Writing SDF to '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/control_unity/runs/control_unity_flow/results/signoff/control_unity.sdf'…

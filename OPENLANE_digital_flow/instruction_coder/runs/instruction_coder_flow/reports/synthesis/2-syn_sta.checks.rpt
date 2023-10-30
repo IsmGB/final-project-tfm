@@ -1,0 +1,169 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= Typical Corner ===================================
+
+Startpoint: data_in[25] (input port clocked by __VIRTUAL_CLK__)
+Endpoint: funct7[0] (output port clocked by __VIRTUAL_CLK__)
+Path Group: __VIRTUAL_CLK__
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock __VIRTUAL_CLK__ (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          2.00    2.00 ^ input external delay
+                  0.04    0.03    2.03 ^ data_in[25] (in)
+     4    0.01                           data_in[25] (net)
+                  0.04    0.00    2.03 ^ _53_/A (sky130_fd_sc_hd__buf_2)
+                  0.17    0.20    2.23 ^ _53_/X (sky130_fd_sc_hd__buf_2)
+     1    0.03                           funct7[0] (net)
+                  0.17    0.00    2.23 ^ funct7[0] (out)
+                                  2.23   data arrival time
+
+                  0.00   10.00   10.00   clock __VIRTUAL_CLK__ (rise edge)
+                          0.00   10.00   clock network delay (ideal)
+                         -0.25    9.75   clock uncertainty
+                          0.00    9.75   clock reconvergence pessimism
+                         -2.00    7.75   output external delay
+                                  7.75   data required time
+-----------------------------------------------------------------------------
+                                  7.75   data required time
+                                 -2.23   data arrival time
+-----------------------------------------------------------------------------
+                                  5.52   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= Typical Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= Typical Corner ===================================
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 100 unannotated drivers.
+ data_in[0]
+ data_in[10]
+ data_in[11]
+ data_in[12]
+ data_in[13]
+ data_in[14]
+ data_in[15]
+ data_in[16]
+ data_in[17]
+ data_in[18]
+ data_in[19]
+ data_in[1]
+ data_in[20]
+ data_in[21]
+ data_in[22]
+ data_in[23]
+ data_in[24]
+ data_in[25]
+ data_in[26]
+ data_in[27]
+ data_in[28]
+ data_in[29]
+ data_in[2]
+ data_in[30]
+ data_in[31]
+ data_in[3]
+ data_in[4]
+ data_in[5]
+ data_in[6]
+ data_in[7]
+ data_in[8]
+ data_in[9]
+ _00_/X
+ _01_/X
+ _02_/X
+ _03_/X
+ _04_/X
+ _05_/X
+ _06_/X
+ _07_/X
+ _08_/X
+ _09_/X
+ _10_/X
+ _11_/X
+ _12_/X
+ _13_/X
+ _14_/X
+ _15_/X
+ _16_/X
+ _17_/X
+ _18_/X
+ _19_/X
+ _20_/X
+ _21_/X
+ _22_/X
+ _23_/X
+ _24_/X
+ _25_/X
+ _26_/X
+ _27_/X
+ _28_/X
+ _29_/X
+ _30_/X
+ _31_/X
+ _32_/X
+ _33_/X
+ _34_/X
+ _35_/X
+ _36_/X
+ _37_/X
+ _38_/X
+ _39_/X
+ _40_/X
+ _41_/X
+ _42_/X
+ _43_/X
+ _44_/X
+ _45_/X
+ _46_/X
+ _47_/X
+ _48_/X
+ _49_/X
+ _50_/X
+ _51_/X
+ _52_/X
+ _53_/X
+ _54_/X
+ _55_/X
+ _56_/X
+ _57_/X
+ _58_/X
+ _59_/X
+ _60_/X
+ _61_/X
+ _62_/X
+ _63_/X
+ _64_/X
+ _65_/X
+ _66_/X
+ _67_/X
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 0
+max cap violation count 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================

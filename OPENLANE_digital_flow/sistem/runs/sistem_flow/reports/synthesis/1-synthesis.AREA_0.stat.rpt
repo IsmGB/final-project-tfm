@@ -1,0 +1,47 @@
+
+67. Printing statistics.
+
+=== sistem ===
+
+   Number of wires:                437
+   Number of wire bits:            479
+   Number of public wires:         314
+   Number of public wire bits:     356
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                229
+     alu                             1
+     control_unity                   1
+     instruction_coder               1
+     memory_ram                      1
+     program_counter                 1
+     register                        1
+     sky130_fd_sc_hd__a21bo_2        1
+     sky130_fd_sc_hd__a21boi_2       1
+     sky130_fd_sc_hd__a21o_2        21
+     sky130_fd_sc_hd__a311o_2        1
+     sky130_fd_sc_hd__and2_2        11
+     sky130_fd_sc_hd__and2b_2        1
+     sky130_fd_sc_hd__and4bb_2       1
+     sky130_fd_sc_hd__buf_1         74
+     sky130_fd_sc_hd__inv_2          2
+     sky130_fd_sc_hd__mux2_2        55
+     sky130_fd_sc_hd__nor2b_2        1
+     sky130_fd_sc_hd__nor3_2         1
+     sky130_fd_sc_hd__o21a_2        18
+     sky130_fd_sc_hd__o22a_2        24
+     sky130_fd_sc_hd__o31a_2         8
+     sky130_fd_sc_hd__or2_2          1
+     sky130_fd_sc_hd__or2b_2         1
+     sky130_fd_sc_hd__or3b_2         1
+
+   Area for cell type \control_unity is unknown!
+   Area for cell type \instruction_coder is unknown!
+   Area for cell type \program_counter is unknown!
+   Area for cell type \memory_ram is unknown!
+   Area for cell type \alu is unknown!
+   Area for cell type \register is unknown!
+
+   Chip area for module '\sistem': 1745.424000
+

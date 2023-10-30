@@ -1,0 +1,26 @@
+
+59. Printing statistics.
+
+=== sistem ===
+
+   Number of wires:                207
+   Number of wire bits:            541
+   Number of public wires:          30
+   Number of public wire bits:     364
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                283
+     $_ANDNOT_                      87
+     $_AND_                          2
+     $_MUX_                        137
+     $_NAND_                         2
+     $_ORNOT_                        3
+     $_OR_                          46
+     alu                             1
+     control_unity                   1
+     instruction_coder               1
+     memory_ram                      1
+     program_counter                 1
+     register                        1
+

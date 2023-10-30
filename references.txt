@@ -1,0 +1,156 @@
+REFERENCES:
+
+[1] Flaherty, N. (20 de enero de 2023). Top ten semiconductor vendors in 2022. eeNews Europe.
+https://www.eenewseurope.com/en/top-ten-semiconductor-vendors-in-2022/
+
+[2] Saif M. Khan and Alexander Mann, "AI Chips: What They Are and Why They Matter" (Center for Security and Emerging Technology, April 2020), cset.georgetown.edu/research/ai-chips-what-they-are-and-why-they-matter/.
+https://doi.org/10.51593/20190014
+
+[3] Synopsys, Inc. (s.f.). What is Electronic Design Automation (EDA)?.
+https://www.synopsys.com/glossary/what-is-electronic-design-automation.html
+
+[4] Synopsys, Inc. (s.f.). Synopsys Unveils Galaxy IC Compiler – Next-Generation Physical Design Solution.
+https://news.synopsys.com/index.php?s=20295&item=122377
+
+[5] Pretl, H., & Zachl, G. (2023). GitHub repository of the IIC-OSIC-TOOLS [Computer software]. Recuperado el 13 de agosto de 2023 en
+https://github.com/iic-jku/IIC-OSIC-TOOLS
+
+[6] Kassem, M., & Farid, K. (8 de agosto de 2022). GitHub repository of the foss-asic-tools. Recuperado el 14 de agosto de 2023 en
+https://github.com/efabless/foss-asic-tools
+
+[7] Google & SkyWater Technology. (s.f.). Welcome to SkyWater SKY130 PDK’s documentation!. Recuperado el 7 de agosto de 2023 de
+https://skywater-pdk.readthedocs.io/en/main/index.html
+
+[8] Synopsys, Inc. (s.f.). What is Analog Design?.
+https://www.synopsys.com/glossary/what-is-analog-design.html
+
+[9] Liening, J., & Scheible, J. (2020). Fundamentals of Layout Design for Electronic Circuits. (pp. 130, 151-153). Springer.
+https://doi.org/10.1007/978-3-030-39284-0
+
+[10] DeLisle, J. (2 de diciembre de 2020). What Is Digital IC Design?. All About Circuits.
+https://www.allaboutcircuits.com/technical-articles/what-is-digital-ic-design/
+
+[11] Synopsys, Inc. (s.f.). What is a Process Design Kit and How Does it Work?.
+https://www.synopsys.com/glossary/what-is-a-process-design-kit.html
+
+[12] Rouse, M. (13 de octubre de 2014). Top-Down Design. Techopedia.
+https://www.techopedia.com/definition/9744/top-down-design
+
+[13] Shariat-Yazdi, R. (2001). Mixed Signal Design Flow: A mixed signal PLL case study. [Tésis de maestría, University of Waterloo].
+https://uwspace.uwaterloo.ca/bitstream/handle/10012/916/rshariatyazdi2001.pdf?sequence=1&isAllowed=y
+
+[14] M. Anderson, J. Wernehag, A. Axholt and H. Sjoland, "Teaching top down design of analog/mixed signal ICs through design projects," 2007 37th Annual Frontiers In Education Conference - Global Engineering: Knowledge Without Borders, Opportunities Without Passports, Milwaukee, WI, USA, 2007, pp. T1C-1-T1C-4,
+doi: 10.1109/FIE.2007.4417874.
+
+[15] Malik, S. (14 de abril de 2023). RTL Design: A Comprehensive Guide to Unlocking the Power of Register-Transfer Level Design. Wevolver.
+https://www.wevolver.com/article/rtl-design-a-comprehensive-guide-to-unlocking-the-power-of-register-transfer-level-design
+
+[16] Xiu, L. (2008). VLSI Circuit Design Methodology Demystified: A Conceptual Taxonomy. John Wiley & Sons, Inc.
+https://picture.iczhiku.com/resource/eetop/ShiyDTRFDksWGXMV.pdf 
+
+[17] Harris, S., & Harris, D. (2022). Digital Design and Computer Architecture. (RISC-V Edition, p. 218). Morgan Kaufmann.
+https://doi.org/10.1016/B978-0-12-820064-3.00004-0
+
+[18] Avedillo, M., Castro, R., Fernández, F., y Jiménez, C. (s.f.). RTL Synthesis. Metodologías de Diseño y Herramientas CAD. Universidad de Sevilla. Recuperado el 7 de agosto de 2023 en
+http://www2.imse-cnm.csic.es/elec_esi/asignat/MHCAD/tema1_digital/RTL_synthesis.html
+
+[19] S. Gayathri and T. C. Taranath, "RTL synthesis of case study using design compiler," 2017 International Conference on Electrical, Electronics, Communication, Computer, and Optimization Techniques (ICEECCOT), Mysuru, India, 2017, pp. 1-7,
+doi: 10.1109/ICEECCOT.2017.8284603.
+
+[20] Synopsys, Inc. (s.f.). What is Static Timing Analysis (STA)?.
+https://www.synopsys.com/glossary/what-is-static-timing-analysis.html
+
+[21] Kahng, A., Lienig, J., Markov, I., & Hu, J. (2011). VLSI Physical Design: From Graph Partitioning to Timing Closure. Springer.
+https://doi.org/10.1007/978-90-481-9591-6
+
+[22] Stroud, C., Wang, L.-T., & Chang, Y.-W. (2009). Chapter 1 – Introduction. In Wang, L.-T., Chang, Y.-W., & Cheng, K.-T. (Ed.), Electronic Design Automation. (pp. 1-38). Morgan Kaufmann.
+https://doi.org/10.1016/B978-0-12-374364-0.50008-4
+
+[23] Chen, T.-C., & Chang, Y.-W. (2009). Chapter 10 – Floorplaning. In Wang, L.-T., Chang, Y.-W., & Cheng, K.-T. (Ed.), Electronic Design Automation. (pp. 575-634). Morgan Kaufmann.
+https://doi.org/10.1016/B978-0-12-374364-0.50017-5
+
+[24] Avedillo, M., Castro, R., Fernández, F., y Jiménez, C. (s.f.). Layout. Metodologías de Diseño y Herramientas CAD. Universidad de Sevilla. Recuperado el 7 de agosto de 2023 en
+http://www2.imse-cnm.csic.es/elec_esi/asignat/MHCAD/tema1_digital/Layout.html
+
+[25] Mukundan, S. (12 de octubre de 2013). Physical Design Flow V: Physical Verification. VLSI Professional Network.
+https://vlsi.pro/physical-design-flow-v-physical-verification/
+
+[26] The OpenLane Documentation.
+https://openlane.readthedocs.io/en/latest/index.html
+
+[27] Icarus Verilog.
+https://steveicarus.github.io/iverilog/
+
+[28] GTKWave. (s.f.). GTKWave 3.3 Wave Analyzer User’s Guide [Archivo PDF].
+https://gtkwave.sourceforge.net/gtkwave.pdf
+
+[29] Yosys Open SYnthesis Suite.
+https://yosyshq.net/yosys/
+
+[30] ABC: A System for Synthesis and Verification.
+https://people.eecs.berkeley.edu/~alanmi/abc/
+
+[31] OpenSTA: Open System Testing Architecture.
+http://opensta.org/
+
+[32] Gaber, M., Manarabdelaty, M., & Shalan, M. (17 de mayo de 2017). GitHub repository of Fault. Recuperado el 4 de septiembre de 2023 en
+https://github.com/AUCOHL/Fault
+
+[33] OpenROAD documentation.
+https://openroad.readthedocs.io/en/latest/index.html
+
+[34] Team VLSI. (29 de agosto de 2020). Well Tap Cells in Physical Design. Team VLSI. Recuperado el 5 de septiembre de 2023 en
+https://teamvlsi.com/2020/08/well-tap-cell-in-asic-design.html
+
+[35] Team VLSI. (30 de agosto de 2020). DeCap Cells in Physical Design | Use of DeCap Cells in PD. Team VLSI. Recuperado el 5 de septiembre de 2023 en
+https://teamvlsi.com/2020/08/decap-cell-in-physical-design.html
+
+[36] M. Shalan and T. Edwards, “Building OpenLane: A 130nm OpenROAD-based Tapeout-Proven Flow: Invited Paper,” 2020 IEEE/ACM International Conference On Computer Aided Design (ICCAD), San Diego, CA, USA, 2020, pp. 1-6.
+
+[37] Edwars, T. (29 de mayo de 2020). Magic VLSI Layout Tool. Open Circuit Designs. Recuperado el 6 de septiembre de 2023 en
+http://opencircuitdesign.com/magic/index.html
+
+[38] KLayout Layout Viewer and Editor.
+https://www.klayout.de/
+
+[39] Bailey, M., & Gaber, M. (8 de mayo de 2023). GitHub repository of cvc. Recuperado el 6 de septiembre de 2023 en
+https://github.com/d-m-bailey/cvc
+
+[40] RISC-V International. (s.f.). History of RISC-V.
+https://riscv.org/about/history/
+
+[41] Waterman, A., & Asanovic, K. (13 de diciembre de 2019). The RISC-V Instruction Set Manual: Volume I: Unprivileged ISA [Archivo PDF].
+https://riscv.org/wp-content/uploads/2019/12/riscv-spec-20191213.pdf
+
+[42] González, J. (22 de abril de 2022). Sesión Laboratorio 10: Práctica 4-2. GitHub.
+https://github.com/myTeachingURJC/2019-20-LAB-AO/wiki/L10:-Practica-4
+
+[43] Felipe Machado. (2 de septiembre de 2021). Arquitectura de computadores: RISC-V [Archivo de Vídeo]. YouTube.
+https://www.youtube.com/playlist?list=PLSUmB2yTypWGcPlfTymmaQ3HWxvamxfoW
+
+[44] Docker: Accelerated Container Application.
+https://www.docker.com/
+
+[45] Nyasulu, P., & Knight, J. (5 de octubre de 2003). Introduction to Verilog [Archivo PDF]. Carleton University.
+https://www.doe.carleton.ca/~gallan/478/pdfs/PeterVrlR.pdf
+
+[46] Verilator User’s Guide — Verilator 5.016 documentation.
+https://verilator.org/guide/latest/index.html
+
+[47] The OpenROAD Project. (s.f.). The OpenROAD Project. GitHub.
+https://github.com/The-OpenROAD-Project
+
+[48] Efabless Corporation and contributors (s.f.). Hierarchical chip design (with macros). The OpenLane Documentation. Recuperado el 21 de octubre de 2023 en
+https://openlane.readthedocs.io/en/latest/tutorials/digital_guide.html
+
+[49] antonblanchard. (18 de julio de 2022). @vvvverre as @maliberty says, you want to pay more attention to the cap/slew violations. It looks like your fan [Comentario en la página web Max fanout Limit ? · Issue #1206 · The-OpenROAD-Project/OpenLane]. GitHub.
+https://github.com/The-OpenROAD-Project/OpenLane/issues/1206
+
+[50] w32agobot. (3 de noviembre de 2022). Flow unexpectedly fails with DRC error Diffusion contact to gate < 0.055um (licon.11). The boundary boxes in results/final/gds are [Comentario en la página web Standardcell boundary redefined, flow fails at DRC · Issue #1470 · The-OpenROAD-Project/OpenLane]. GitHub.
+https://github.com/The-OpenROAD-Project/OpenLane/issues/1470
+
+[51] RTimithyEdwards. (26 de agosto de 2022). @jainsoumil2 : I do not know what you have done, but this is not an error. The presence of the area_sc [Comentario en la página web At least one cell (sky130_fd_sc_hd__clkdlybuf4s15_1) violates SkyWater's own DRC rules and needs to be fixed. · Issue #261 · google/skywater-pdk]. GitHub.
+https://github.com/google/skywater-pdk/issues/261
+
+[52] Efabless Corporation and contributors (s.f.). Flow Configuration Variables. The OpenLane Documentation. Recuperado el 24 de octubre de 2023 en
+https://openlane.readthedocs.io/en/latest/reference/configuration.html

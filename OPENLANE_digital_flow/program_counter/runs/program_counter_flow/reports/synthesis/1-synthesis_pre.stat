@@ -1,0 +1,24 @@
+
+47. Printing statistics.
+
+=== program_counter ===
+
+   Number of wires:                 64
+   Number of wire bits:            139
+   Number of public wires:           5
+   Number of public wire bits:      58
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 82
+     $_ANDNOT_                      17
+     $_AND_                          3
+     $_NAND_                         8
+     $_NOR_                          8
+     $_ORNOT_                        1
+     $_OR_                           9
+     $_SDFFE_PP0N_                   1
+     $_SDFF_PN0_                    12
+     $_XNOR_                        13
+     $_XOR_                         10
+

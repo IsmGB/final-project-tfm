@@ -1,0 +1,5 @@
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/alu/runs/alu_flow/results/routing/alu.nl.v line 5829, module sky130_fd_sc_hd__tapvpwrvgnd_1 not found. Creating black box for TAP_130.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/alu/runs/alu_flow/results/routing/alu.nl.v line 6553, module sky130_fd_sc_hd__fill_2 not found. Creating black box for FILLER_0_0_15.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/alu/runs/alu_flow/results/routing/alu.nl.v line 6555, module sky130_fd_sc_hd__fill_1 not found. Creating black box for FILLER_0_0_27.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/alu/runs/alu_flow/results/routing/alu.nl.v line 6558, module sky130_ef_sc_hd__decap_12 not found. Creating black box for FILLER_0_0_44.
+[WARNING] Did not save OpenROAD database!

@@ -1,0 +1,1077 @@
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2020  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.27+30 (git sha1 101075611, gcc 11.3.0-1ubuntu1~22.04.1 -fPIC -Os)
+
+[TCL: yosys -import] Command name collision: found pre-existing command `cd' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `eval' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `exec' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `read' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `trace' -> skip.
+
+1. Executing Verilog-2005 frontend: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/macro/bb/control_unity.v
+Parsing SystemVerilog input from `/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/macro/bb/control_unity.v' to AST representation.
+Generating RTLIL representation for module `\control_unity'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/macro/bb/instruction_coder.v
+Parsing SystemVerilog input from `/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/macro/bb/instruction_coder.v' to AST representation.
+Generating RTLIL representation for module `\instruction_coder'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/macro/bb/program_counter.v
+Parsing SystemVerilog input from `/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/macro/bb/program_counter.v' to AST representation.
+Generating RTLIL representation for module `\program_counter'.
+Successfully finished Verilog frontend.
+
+4. Executing Verilog-2005 frontend: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/macro/bb/memory_ram.v
+Parsing SystemVerilog input from `/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/macro/bb/memory_ram.v' to AST representation.
+Generating RTLIL representation for module `\memory_ram'.
+Successfully finished Verilog frontend.
+
+5. Executing Verilog-2005 frontend: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/macro/bb/alu.v
+Parsing SystemVerilog input from `/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/macro/bb/alu.v' to AST representation.
+Generating RTLIL representation for module `\alu'.
+Successfully finished Verilog frontend.
+
+6. Executing Verilog-2005 frontend: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/macro/bb/register.v
+Parsing SystemVerilog input from `/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/macro/bb/register.v' to AST representation.
+Generating RTLIL representation for module `\register'.
+Successfully finished Verilog frontend.
+
+7. Executing Verilog-2005 frontend: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/src/sistem.v
+Parsing SystemVerilog input from `/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/src/sistem.v' to AST representation.
+Generating RTLIL representation for module `\sistem'.
+Successfully finished Verilog frontend.
+
+8. Generating Graphviz representation of design.
+Writing dot description to `/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/tmp/synthesis/hierarchy.dot'.
+Dumping module sistem to page 1.
+
+9. Executing HIERARCHY pass (managing design hierarchy).
+
+9.1. Analyzing design hierarchy..
+Top module:  \sistem
+
+9.2. Analyzing design hierarchy..
+Top module:  \sistem
+Removed 0 unused modules.
+
+10. Executing TRIBUF pass.
+
+11. Executing HIERARCHY pass (managing design hierarchy).
+
+11.1. Analyzing design hierarchy..
+Top module:  \sistem
+
+11.2. Analyzing design hierarchy..
+Top module:  \sistem
+Removed 0 unused modules.
+
+12. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+13. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 3 switch rules as full_case in process $proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/src/sistem.v:118$73 in module sistem.
+Marked 1 switch rules as full_case in process $proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/src/sistem.v:103$72 in module sistem.
+Marked 2 switch rules as full_case in process $proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/src/sistem.v:84$71 in module sistem.
+Marked 2 switch rules as full_case in process $proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/src/sistem.v:58$70 in module sistem.
+Removed a total of 0 dead cases.
+
+14. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 5 assignments to connections.
+
+15. Executing PROC_INIT pass (extract init attributes).
+
+16. Executing PROC_ARST pass (detect async resets in processes).
+
+17. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~8 debug messages>
+
+18. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\sistem.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/src/sistem.v:118$73'.
+     1/3: $3\pc_addition[11:0]
+     2/3: $2\pc_addition[11:0]
+     3/3: $1\pc_addition[11:0]
+Creating decoders for process `\sistem.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/src/sistem.v:103$72'.
+     1/1: $1\ram_data_in[31:0]
+Creating decoders for process `\sistem.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/src/sistem.v:84$71'.
+     1/2: $2\alu_data_in2[31:0]
+     2/2: $1\alu_data_in2[31:0]
+Creating decoders for process `\sistem.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/src/sistem.v:58$70'.
+     1/2: $2\register_data_in[31:0]
+     2/2: $1\register_data_in[31:0]
+
+19. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\sistem.\pc_addition' from process `\sistem.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/src/sistem.v:118$73'.
+No latch inferred for signal `\sistem.\ram_data_in' from process `\sistem.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/src/sistem.v:103$72'.
+No latch inferred for signal `\sistem.\alu_data_in1' from process `\sistem.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/src/sistem.v:84$71'.
+No latch inferred for signal `\sistem.\alu_data_in2' from process `\sistem.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/src/sistem.v:84$71'.
+No latch inferred for signal `\sistem.\register_data_in' from process `\sistem.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/src/sistem.v:58$70'.
+
+20. Executing PROC_DFF pass (convert process syncs to FFs).
+
+21. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+22. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Found and cleaned up 3 empty switches in `\sistem.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/src/sistem.v:118$73'.
+Removing empty process `sistem.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/src/sistem.v:118$73'.
+Found and cleaned up 1 empty switch in `\sistem.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/src/sistem.v:103$72'.
+Removing empty process `sistem.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/src/sistem.v:103$72'.
+Found and cleaned up 2 empty switches in `\sistem.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/src/sistem.v:84$71'.
+Removing empty process `sistem.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/src/sistem.v:84$71'.
+Found and cleaned up 2 empty switches in `\sistem.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/src/sistem.v:58$70'.
+Removing empty process `sistem.$proc$/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/src/sistem.v:58$70'.
+Cleaned up 8 empty switches.
+
+23. Executing OPT_EXPR pass (perform const folding).
+Optimizing module sistem.
+<suppressed ~1 debug messages>
+
+24. Executing FLATTEN pass (flatten design).
+
+25. Executing OPT_EXPR pass (perform const folding).
+Optimizing module sistem.
+
+26. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \sistem..
+Removed 0 unused cells and 27 unused wires.
+<suppressed ~1 debug messages>
+
+27. Executing CHECK pass (checking for obvious problems).
+Checking module sistem...
+Found and reported 0 problems.
+
+28. Executing OPT pass (performing simple optimizations).
+
+28.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module sistem.
+
+28.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\sistem'.
+<suppressed ~6 debug messages>
+Removed a total of 2 cells.
+
+28.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \sistem..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+    dead port 1/2 on $mux $procmux$100.
+    dead port 1/2 on $mux $procmux$113.
+    dead port 1/2 on $mux $procmux$81.
+    dead port 2/2 on $mux $procmux$87.
+Removed 4 multiplexer ports.
+<suppressed ~4 debug messages>
+
+28.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \sistem.
+Performed a total of 0 changes.
+
+28.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\sistem'.
+Removed a total of 0 cells.
+
+28.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+28.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \sistem..
+Removed 0 unused cells and 6 unused wires.
+<suppressed ~1 debug messages>
+
+28.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module sistem.
+
+28.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+28.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \sistem..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~4 debug messages>
+
+28.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \sistem.
+Performed a total of 0 changes.
+
+28.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\sistem'.
+Removed a total of 0 cells.
+
+28.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+28.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \sistem..
+
+28.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module sistem.
+
+28.16. Finished OPT passes. (There is nothing left to do.)
+
+29. Executing FSM pass (extract and optimize FSM).
+
+29.1. Executing FSM_DETECT pass (finding FSMs in design).
+
+29.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+
+29.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+29.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \sistem..
+
+29.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+29.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+
+29.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+
+29.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+
+30. Executing OPT pass (performing simple optimizations).
+
+30.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module sistem.
+
+30.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\sistem'.
+Removed a total of 0 cells.
+
+30.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \sistem..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~4 debug messages>
+
+30.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \sistem.
+Performed a total of 0 changes.
+
+30.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\sistem'.
+Removed a total of 0 cells.
+
+30.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+30.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \sistem..
+
+30.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module sistem.
+
+30.9. Finished OPT passes. (There is nothing left to do.)
+
+31. Executing WREDUCE pass (reducing word size of cells).
+Removed top 1 bits (of 3) from port B of cell sistem.$procmux$108_CMP0 ($eq).
+Removed top 1 bits (of 3) from port B of cell sistem.$procmux$109_CMP0 ($eq).
+Removed top 2 bits (of 3) from port B of cell sistem.$procmux$110_CMP0 ($eq).
+
+32. Executing PEEPOPT pass (run peephole optimizers).
+
+33. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \sistem..
+
+34. Executing ALUMACC pass (create $alu and $macc cells).
+Extracting $alu and $macc cells in module sistem:
+  created 0 $alu and 0 $macc cells.
+
+35. Executing SHARE pass (SAT-based resource sharing).
+
+36. Executing OPT pass (performing simple optimizations).
+
+36.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module sistem.
+
+36.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\sistem'.
+Removed a total of 0 cells.
+
+36.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \sistem..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~4 debug messages>
+
+36.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \sistem.
+Performed a total of 0 changes.
+
+36.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\sistem'.
+Removed a total of 0 cells.
+
+36.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+36.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \sistem..
+
+36.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module sistem.
+
+36.9. Finished OPT passes. (There is nothing left to do.)
+
+37. Executing MEMORY pass.
+
+37.1. Executing OPT_MEM pass (optimize memories).
+Performed a total of 0 transformations.
+
+37.2. Executing OPT_MEM_PRIORITY pass (removing unnecessary memory write priority relations).
+Performed a total of 0 transformations.
+
+37.3. Executing OPT_MEM_FEEDBACK pass (finding memory read-to-write feedback paths).
+
+37.4. Executing MEMORY_BMUX2ROM pass (converting muxes to ROMs).
+
+37.5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).
+
+37.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \sistem..
+
+37.7. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+
+37.8. Executing OPT_MEM_WIDEN pass (optimize memories where all ports are wide).
+Performed a total of 0 transformations.
+
+37.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \sistem..
+
+37.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+38. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \sistem..
+
+39. Executing OPT pass (performing simple optimizations).
+
+39.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module sistem.
+<suppressed ~1 debug messages>
+
+39.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\sistem'.
+Removed a total of 0 cells.
+
+39.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+39.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \sistem..
+Removed 1 unused cells and 1 unused wires.
+<suppressed ~2 debug messages>
+
+39.5. Finished fast OPT passes.
+
+40. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+
+41. Executing OPT pass (performing simple optimizations).
+
+41.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module sistem.
+
+41.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\sistem'.
+Removed a total of 0 cells.
+
+41.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \sistem..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~4 debug messages>
+
+41.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \sistem.
+    Consolidated identical input bits for $pmux cell $procmux$106:
+      Old ports: A=\ram_data_out, B={ \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15:0] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7:0] 16'0000000000000000 \ram_data_out [15:0] 24'000000000000000000000000 \ram_data_out [7:0] }, Y=$2\register_data_in[31:0]
+      New ports: A=\ram_data_out [31:8], B={ \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15] \ram_data_out [15:7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] \ram_data_out [7] 16'0000000000000000 \ram_data_out [15:8] 24'000000000000000000000000 }, Y=$2\register_data_in[31:0] [31:8]
+      New connections: $2\register_data_in[31:0] [7:0] = \ram_data_out [7:0]
+    Consolidated identical input bits for $pmux cell $procmux$93:
+      Old ports: A=\register_data_out2, B={ \ram_data_out [31:16] \register_data_out2 [15:0] \ram_data_out [31:8] \register_data_out2 [7:0] }, Y=\ram_data_in
+      New ports: A=\register_data_out2 [31:8], B={ \ram_data_out [31:16] \register_data_out2 [15:8] \ram_data_out [31:8] }, Y=\ram_data_in [31:8]
+      New connections: \ram_data_in [7:0] = \register_data_out2 [7:0]
+    Consolidated identical input bits for $mux cell $procmux$97:
+      Old ports: A={ \immediateI [11] \immediateI [11] \immediateI [11] \immediateI [11] \immediateI [11] \immediateI [11] \immediateI [11] \immediateI [11] \immediateI [11] \immediateI [11] \immediateI [11] \immediateI [11] \immediateI [11] \immediateI [11] \immediateI [11] \immediateI [11] \immediateI [11] \immediateI [11] \immediateI [11] \immediateI [11] \immediateI }, B={ \immediateS [11] \immediateS [11] \immediateS [11] \immediateS [11] \immediateS [11] \immediateS [11] \immediateS [11] \immediateS [11] \immediateS [11] \immediateS [11] \immediateS [11] \immediateS [11] \immediateS [11] \immediateS [11] \immediateS [11] \immediateS [11] \immediateS [11] \immediateS [11] \immediateS [11] \immediateS [11] \immediateS }, Y=$2\alu_data_in2[31:0]
+      New ports: A=\immediateI, B=\immediateS, Y=$2\alu_data_in2[31:0] [11:0]
+      New connections: $2\alu_data_in2[31:0] [31:12] = { $2\alu_data_in2[31:0] [11] $2\alu_data_in2[31:0] [11] $2\alu_data_in2[31:0] [11] $2\alu_data_in2[31:0] [11] $2\alu_data_in2[31:0] [11] $2\alu_data_in2[31:0] [11] $2\alu_data_in2[31:0] [11] $2\alu_data_in2[31:0] [11] $2\alu_data_in2[31:0] [11] $2\alu_data_in2[31:0] [11] $2\alu_data_in2[31:0] [11] $2\alu_data_in2[31:0] [11] $2\alu_data_in2[31:0] [11] $2\alu_data_in2[31:0] [11] $2\alu_data_in2[31:0] [11] $2\alu_data_in2[31:0] [11] $2\alu_data_in2[31:0] [11] $2\alu_data_in2[31:0] [11] $2\alu_data_in2[31:0] [11] $2\alu_data_in2[31:0] [11] }
+  Optimizing cells in module \sistem.
+Performed a total of 3 changes.
+
+41.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\sistem'.
+Removed a total of 0 cells.
+
+41.6. Executing OPT_SHARE pass.
+
+41.7. Executing OPT_DFF pass (perform DFF optimizations).
+
+41.8. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \sistem..
+
+41.9. Executing OPT_EXPR pass (perform const folding).
+Optimizing module sistem.
+
+41.10. Rerunning OPT passes. (Maybe there is more to do..)
+
+41.11. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \sistem..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~4 debug messages>
+
+41.12. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \sistem.
+Performed a total of 0 changes.
+
+41.13. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\sistem'.
+Removed a total of 0 cells.
+
+41.14. Executing OPT_SHARE pass.
+
+41.15. Executing OPT_DFF pass (perform DFF optimizations).
+
+41.16. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \sistem..
+
+41.17. Executing OPT_EXPR pass (perform const folding).
+Optimizing module sistem.
+
+41.18. Finished OPT passes. (There is nothing left to do.)
+
+42. Executing TECHMAP pass (map to technology primitives).
+
+42.1. Executing Verilog-2005 frontend: /foss/tools/yosys/1010756/bin/../share/yosys/techmap.v
+Parsing Verilog input from `/foss/tools/yosys/1010756/bin/../share/yosys/techmap.v' to AST representation.
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `\$__div_mod_u'.
+Generating RTLIL representation for module `\$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `\$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_pmux'.
+Generating RTLIL representation for module `\_90_demux'.
+Generating RTLIL representation for module `\_90_lut'.
+Successfully finished Verilog frontend.
+
+42.2. Continuing TECHMAP pass.
+Using extmapper simplemap for cells of type $logic_not.
+Using extmapper simplemap for cells of type $logic_and.
+Using extmapper simplemap for cells of type $mux.
+Using template $paramod$cc1e387d9d5ac1d3f6e6bed180038d9c0ac48d0c\_90_pmux for cells of type $pmux.
+Using extmapper simplemap for cells of type $eq.
+Using template $paramod$19e9557905baa9d3741d0daa66e2ef076e9bab7d\_90_pmux for cells of type $pmux.
+Using extmapper simplemap for cells of type $reduce_or.
+Using extmapper simplemap for cells of type $and.
+No more expansions possible.
+<suppressed ~172 debug messages>
+
+43. Executing OPT pass (performing simple optimizations).
+
+43.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module sistem.
+<suppressed ~92 debug messages>
+
+43.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\sistem'.
+<suppressed ~174 debug messages>
+Removed a total of 58 cells.
+
+43.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+43.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \sistem..
+Removed 0 unused cells and 193 unused wires.
+<suppressed ~1 debug messages>
+
+43.5. Finished fast OPT passes.
+
+44. Executing ABC pass (technology mapping using ABC).
+
+44.1. Extracting gate netlist of module `\sistem' to `<abc-temp-dir>/input.blif'..
+Extracted 286 gates and 428 wires to a netlist network with 140 inputs and 100 outputs.
+
+44.1.1. Executing ABC.
+Running ABC command: "<yosys-exe-dir>/yosys-abc" -s -f <abc-temp-dir>/abc.script 2>&1
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: Entered genlib library with 13 gates from file "<abc-temp-dir>/stdcells.genlib".
+ABC: + strash 
+ABC: + dretime 
+ABC: + map 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+44.1.2. Re-integrating ABC results.
+ABC RESULTS:               NOT cells:        1
+ABC RESULTS:              NAND cells:        2
+ABC RESULTS:             ORNOT cells:        3
+ABC RESULTS:               AND cells:        2
+ABC RESULTS:            ANDNOT cells:       87
+ABC RESULTS:                OR cells:       46
+ABC RESULTS:               MUX cells:      137
+ABC RESULTS:        internal signals:      188
+ABC RESULTS:           input signals:      140
+ABC RESULTS:          output signals:      100
+Removing temp directory.
+
+45. Executing OPT pass (performing simple optimizations).
+
+45.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module sistem.
+<suppressed ~12 debug messages>
+
+45.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\sistem'.
+Removed a total of 0 cells.
+
+45.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+45.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \sistem..
+Removed 1 unused cells and 273 unused wires.
+<suppressed ~2 debug messages>
+
+45.5. Finished fast OPT passes.
+
+46. Executing HIERARCHY pass (managing design hierarchy).
+
+46.1. Analyzing design hierarchy..
+Top module:  \sistem
+
+46.2. Analyzing design hierarchy..
+Top module:  \sistem
+Removed 0 unused modules.
+
+47. Printing statistics.
+
+=== sistem ===
+
+   Number of wires:                212
+   Number of wire bits:            596
+   Number of public wires:          35
+   Number of public wire bits:     419
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                283
+     $_ANDNOT_                      87
+     $_AND_                          2
+     $_MUX_                        137
+     $_NAND_                         2
+     $_ORNOT_                        3
+     $_OR_                          46
+     alu                             1
+     control_unity                   1
+     instruction_coder               1
+     memory_ram                      1
+     program_counter                 1
+     register                        1
+
+48. Executing CHECK pass (checking for obvious problems).
+Checking module sistem...
+Found and reported 0 problems.
+
+49. Generating Graphviz representation of design.
+Writing dot description to `/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/tmp/synthesis/post_techmap.dot'.
+Dumping module sistem to page 1.
+
+50. Executing SHARE pass (SAT-based resource sharing).
+
+51. Executing OPT pass (performing simple optimizations).
+
+51.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module sistem.
+
+51.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\sistem'.
+Removed a total of 0 cells.
+
+51.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \sistem..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+51.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \sistem.
+Performed a total of 0 changes.
+
+51.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\sistem'.
+Removed a total of 0 cells.
+
+51.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+51.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \sistem..
+
+51.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module sistem.
+
+51.9. Finished OPT passes. (There is nothing left to do.)
+
+52. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \sistem..
+Removed 0 unused cells and 5 unused wires.
+<suppressed ~5 debug messages>
+
+53. Printing statistics.
+
+=== sistem ===
+
+   Number of wires:                207
+   Number of wire bits:            541
+   Number of public wires:          30
+   Number of public wire bits:     364
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                283
+     $_ANDNOT_                      87
+     $_AND_                          2
+     $_MUX_                        137
+     $_NAND_                         2
+     $_ORNOT_                        3
+     $_OR_                          46
+     alu                             1
+     control_unity                   1
+     instruction_coder               1
+     memory_ram                      1
+     program_counter                 1
+     register                        1
+
+mapping tbuf
+
+54. Executing TECHMAP pass (map to technology primitives).
+
+54.1. Executing Verilog-2005 frontend: /foss/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tribuff_map.v
+Parsing Verilog input from `/foss/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tribuff_map.v' to AST representation.
+Generating RTLIL representation for module `\$_TBUF_'.
+Successfully finished Verilog frontend.
+
+54.2. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~3 debug messages>
+
+55. Executing SIMPLEMAP pass (map simple cells to gate primitives).
+
+56. Executing TECHMAP pass (map to technology primitives).
+
+56.1. Executing Verilog-2005 frontend: /foss/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/latch_map.v
+Parsing Verilog input from `/foss/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/latch_map.v' to AST representation.
+Generating RTLIL representation for module `\$_DLATCH_P_'.
+Generating RTLIL representation for module `\$_DLATCH_N_'.
+Successfully finished Verilog frontend.
+
+56.2. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~4 debug messages>
+
+57. Executing SIMPLEMAP pass (map simple cells to gate primitives).
+
+58. Executing DFFLIBMAP pass (mapping DFF cells to sequential cells from liberty file).
+  cell sky130_fd_sc_hd__dfxtp_2 (noninv, pins=3, area=21.27) is a direct match for cell type $_DFF_P_.
+  cell sky130_fd_sc_hd__dfrtp_2 (noninv, pins=4, area=26.28) is a direct match for cell type $_DFF_PN0_.
+  cell sky130_fd_sc_hd__dfstp_2 (noninv, pins=4, area=26.28) is a direct match for cell type $_DFF_PN1_.
+  cell sky130_fd_sc_hd__dfbbn_2 (noninv, pins=6, area=35.03) is a direct match for cell type $_DFFSR_NNN_.
+  final dff cell mappings:
+    unmapped dff cell: $_DFF_N_
+    \sky130_fd_sc_hd__dfxtp_2 _DFF_P_ (.CLK( C), .D( D), .Q( Q));
+    unmapped dff cell: $_DFF_NN0_
+    unmapped dff cell: $_DFF_NN1_
+    unmapped dff cell: $_DFF_NP0_
+    unmapped dff cell: $_DFF_NP1_
+    \sky130_fd_sc_hd__dfrtp_2 _DFF_PN0_ (.CLK( C), .D( D), .Q( Q), .RESET_B( R));
+    \sky130_fd_sc_hd__dfstp_2 _DFF_PN1_ (.CLK( C), .D( D), .Q( Q), .SET_B( R));
+    unmapped dff cell: $_DFF_PP0_
+    unmapped dff cell: $_DFF_PP1_
+    \sky130_fd_sc_hd__dfbbn_2 _DFFSR_NNN_ (.CLK_N( C), .D( D), .Q( Q), .Q_N(~Q), .RESET_B( R), .SET_B( S));
+    unmapped dff cell: $_DFFSR_NNP_
+    unmapped dff cell: $_DFFSR_NPN_
+    unmapped dff cell: $_DFFSR_NPP_
+    unmapped dff cell: $_DFFSR_PNN_
+    unmapped dff cell: $_DFFSR_PNP_
+    unmapped dff cell: $_DFFSR_PPN_
+    unmapped dff cell: $_DFFSR_PPP_
+
+58.1. Executing DFFLEGALIZE pass (convert FFs to types supported by the target).
+Mapping DFF cells in module `\sistem':
+
+59. Printing statistics.
+
+=== sistem ===
+
+   Number of wires:                207
+   Number of wire bits:            541
+   Number of public wires:          30
+   Number of public wire bits:     364
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                283
+     $_ANDNOT_                      87
+     $_AND_                          2
+     $_MUX_                        137
+     $_NAND_                         2
+     $_ORNOT_                        3
+     $_OR_                          46
+     alu                             1
+     control_unity                   1
+     instruction_coder               1
+     memory_ram                      1
+     program_counter                 1
+     register                        1
+
+[INFO]: USING STRATEGY AREA 0
+
+60. Executing ABC pass (technology mapping using ABC).
+
+60.1. Extracting gate netlist of module `\sistem' to `/tmp/yosys-abc-3CaVkx/input.blif'..
+Extracted 277 gates and 417 wires to a netlist network with 140 inputs and 100 outputs.
+
+60.1.1. Executing ABC.
+Running ABC command: "/foss/tools/yosys/1010756/bin/yosys-abc" -s -f /tmp/yosys-abc-3CaVkx/abc.script 2>&1
+ABC: ABC command line: "source /tmp/yosys-abc-3CaVkx/abc.script".
+ABC: 
+ABC: + read_blif /tmp/yosys-abc-3CaVkx/input.blif 
+ABC: + read_lib -w /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/tmp/synthesis/trimmed.lib 
+ABC: Parsing finished successfully.  Parsing time =     0.04 sec
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfbbn_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfrbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfrtp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfrtp_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfsbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfstp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfstp_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfxbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfxtp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfxtp_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxtn_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxtn_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxtn_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxtp_1".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__ebufn_2".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__ebufn_4".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__ebufn_8".
+ABC: Library "sky130A_merged" from "/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/tmp/synthesis/trimmed.lib" has 175 cells (17 skipped: 14 seq; 3 tri-state; 0 no func; 0 dont_use).  Time =     0.06 sec
+ABC: Memory =    9.54 MB. Time =     0.06 sec
+ABC: Warning: Detected 2 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+ABC: + read_constr -v /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/tmp/synthesis/synthesis.sdc 
+ABC: Setting driving cell to be "sky130_fd_sc_hd__inv_2".
+ABC: Setting output load to be 33.442001.
+ABC: + read_constr /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/tmp/synthesis/synthesis.sdc 
+ABC: + fx 
+ABC: + mfs 
+ABC: + strash 
+ABC: + refactor 
+ABC: + balance 
+ABC: + rewrite 
+ABC: + refactor 
+ABC: + balance 
+ABC: + rewrite 
+ABC: + rewrite -z 
+ABC: + balance 
+ABC: + refactor -z 
+ABC: + rewrite -z 
+ABC: + balance 
+ABC: + retime -D -D 30000.0 -M 5 
+ABC: + scleanup 
+ABC: Error: The network is combinational.
+ABC: + fraig_store 
+ABC: + balance 
+ABC: + fraig_store 
+ABC: + balance 
+ABC: + rewrite 
+ABC: + refactor 
+ABC: + balance 
+ABC: + rewrite 
+ABC: + rewrite -z 
+ABC: + balance 
+ABC: + refactor -z 
+ABC: + rewrite -z 
+ABC: + balance 
+ABC: + fraig_store 
+ABC: + balance 
+ABC: + rewrite 
+ABC: + refactor 
+ABC: + balance 
+ABC: + rewrite 
+ABC: + rewrite -z 
+ABC: + balance 
+ABC: + refactor -z 
+ABC: + rewrite -z 
+ABC: + balance 
+ABC: + fraig_store 
+ABC: + balance 
+ABC: + rewrite 
+ABC: + refactor 
+ABC: + balance 
+ABC: + rewrite 
+ABC: + rewrite -z 
+ABC: + balance 
+ABC: + refactor -z 
+ABC: + rewrite -z 
+ABC: + balance 
+ABC: + fraig_store 
+ABC: + fraig_restore 
+ABC: + amap -m -Q 0.1 -F 20 -A 20 -C 5000 
+ABC: + retime -D -D 30000.0 
+ABC: + &get -n 
+ABC: + &st 
+ABC: + &dch 
+ABC: + &nf 
+ABC: + &put 
+ABC: + buffer -N 10 
+ABC: + upsize -D 30000.0 
+ABC: Current delay (1357.92 ps) does not exceed the target delay (30000.00 ps). Upsizing is not performed.
+ABC: + dnsize -D 30000.0 
+ABC: + stime -p 
+ABC: WireLoad = "none"  Gates =    223 ( 34.1 %)   Cap = 12.6 ff (  8.6 %)   Area =     1745.42 ( 65.5 %)   Delay =  1986.62 ps  ( 10.8 %)               
+ABC: Path  0 --     109 : 0    5 pi                       A =   0.00  Df =  49.3  -27.4 ps  S =  74.3 ps  Cin =  0.0 ff  Cout =  14.8 ff  Cmax =   0.0 ff  G =    0  
+ABC: Path  1 --     241 : 3    1 sky130_fd_sc_hd__or3b_2  A =   8.76  Df = 480.3 -284.8 ps  S =  72.3 ps  Cin =  1.5 ff  Cout =   2.2 ff  Cmax = 269.2 ff  G =  139  
+ABC: Path  2 --     242 : 1    9 sky130_fd_sc_hd__buf_1   A =   3.75  Df = 679.6 -208.2 ps  S = 336.0 ps  Cin =  2.1 ff  Cout =  28.2 ff  Cmax = 130.0 ff  G = 1286  
+ABC: Path  3 --     252 : 3    7 sky130_fd_sc_hd__a21bo_2 A =  10.01  Df = 981.8 -194.9 ps  S = 131.0 ps  Cin =  2.0 ff  Cout =  22.3 ff  Cmax = 288.4 ff  G = 1052  
+ABC: Path  4 --     253 : 1   10 sky130_fd_sc_hd__buf_1   A =   3.75  Df =1329.0 -320.6 ps  S = 398.4 ps  Cin =  2.1 ff  Cout =  33.5 ff  Cmax = 130.0 ff  G = 1528  
+ABC: Path  5 --     254 : 3    1 sky130_fd_sc_hd__mux2_2  A =  11.26  Df =1665.7 -310.2 ps  S =  45.6 ps  Cin =  2.3 ff  Cout =   2.2 ff  Cmax = 297.6 ff  G =   92  
+ABC: Path  6 --     255 : 1    1 sky130_fd_sc_hd__buf_1   A =   3.75  Df =1986.6 -412.2 ps  S = 396.5 ps  Cin =  2.1 ff  Cout =  33.4 ff  Cmax = 130.0 ff  G = 1590  
+ABC: Start-point = pi108 (\databus [1]).  End-point = po3 (\ram_data_in [16]).
+ABC: + print_stats -m 
+ABC: netlist                       : i/o =  140/  100  lat =    0  nd =   223  edge =    537  area =1745.22  delay = 6.00  lev = 6
+ABC: + write_blif /tmp/yosys-abc-3CaVkx/output.blif 
+
+60.1.2. Re-integrating ABC results.
+ABC RESULTS:   sky130_fd_sc_hd__or3b_2 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__and2b_2 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__a21bo_2 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__a21boi_2 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__or2b_2 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__and2_2 cells:       11
+ABC RESULTS:   sky130_fd_sc_hd__nor2b_2 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__a21o_2 cells:       21
+ABC RESULTS:   sky130_fd_sc_hd__inv_2 cells:        2
+ABC RESULTS:   sky130_fd_sc_hd__nor3_2 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__and4bb_2 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__or2_2 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__o31a_2 cells:        8
+ABC RESULTS:   sky130_fd_sc_hd__a311o_2 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__o21a_2 cells:       18
+ABC RESULTS:   sky130_fd_sc_hd__o22a_2 cells:       24
+ABC RESULTS:   sky130_fd_sc_hd__mux2_2 cells:       55
+ABC RESULTS:   sky130_fd_sc_hd__buf_1 cells:       74
+ABC RESULTS:        internal signals:      177
+ABC RESULTS:           input signals:      140
+ABC RESULTS:          output signals:      100
+Removing temp directory.
+
+61. Executing SETUNDEF pass (replace undef values with defined constants).
+
+62. Executing HILOMAP pass (mapping to constant drivers).
+
+63. Executing SPLITNETS pass (splitting up multi-bit signals).
+
+64. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \sistem..
+Removed 0 unused cells and 425 unused wires.
+<suppressed ~9 debug messages>
+
+65. Executing INSBUF pass (insert buffer cells for connected wires).
+
+66. Executing CHECK pass (checking for obvious problems).
+Checking module sistem...
+Warning: Wire sistem.\register_data_in[31] is used but has no driver.
+Warning: Wire sistem.\register_data_in[30] is used but has no driver.
+Warning: Wire sistem.\register_data_in[29] is used but has no driver.
+Warning: Wire sistem.\register_data_in[28] is used but has no driver.
+Warning: Wire sistem.\register_data_in[27] is used but has no driver.
+Warning: Wire sistem.\register_data_in[26] is used but has no driver.
+Warning: Wire sistem.\register_data_in[25] is used but has no driver.
+Warning: Wire sistem.\register_data_in[24] is used but has no driver.
+Warning: Wire sistem.\register_data_in[23] is used but has no driver.
+Warning: Wire sistem.\register_data_in[22] is used but has no driver.
+Warning: Wire sistem.\register_data_in[21] is used but has no driver.
+Warning: Wire sistem.\register_data_in[20] is used but has no driver.
+Warning: Wire sistem.\register_data_in[19] is used but has no driver.
+Warning: Wire sistem.\register_data_in[18] is used but has no driver.
+Warning: Wire sistem.\register_data_in[17] is used but has no driver.
+Warning: Wire sistem.\register_data_in[16] is used but has no driver.
+Warning: Wire sistem.\register_data_in[15] is used but has no driver.
+Warning: Wire sistem.\register_data_in[14] is used but has no driver.
+Warning: Wire sistem.\register_data_in[13] is used but has no driver.
+Warning: Wire sistem.\register_data_in[12] is used but has no driver.
+Warning: Wire sistem.\register_data_in[11] is used but has no driver.
+Warning: Wire sistem.\register_data_in[10] is used but has no driver.
+Warning: Wire sistem.\register_data_in[9] is used but has no driver.
+Warning: Wire sistem.\register_data_in[8] is used but has no driver.
+Warning: Wire sistem.\register_data_in[7] is used but has no driver.
+Warning: Wire sistem.\register_data_in[6] is used but has no driver.
+Warning: Wire sistem.\register_data_in[5] is used but has no driver.
+Warning: Wire sistem.\register_data_in[4] is used but has no driver.
+Warning: Wire sistem.\register_data_in[3] is used but has no driver.
+Warning: Wire sistem.\register_data_in[2] is used but has no driver.
+Warning: Wire sistem.\register_data_in[1] is used but has no driver.
+Warning: Wire sistem.\register_data_in[0] is used but has no driver.
+Warning: Wire sistem.\ram_data_in[31] is used but has no driver.
+Warning: Wire sistem.\ram_data_in[30] is used but has no driver.
+Warning: Wire sistem.\ram_data_in[29] is used but has no driver.
+Warning: Wire sistem.\ram_data_in[28] is used but has no driver.
+Warning: Wire sistem.\ram_data_in[27] is used but has no driver.
+Warning: Wire sistem.\ram_data_in[26] is used but has no driver.
+Warning: Wire sistem.\ram_data_in[25] is used but has no driver.
+Warning: Wire sistem.\ram_data_in[24] is used but has no driver.
+Warning: Wire sistem.\ram_data_in[23] is used but has no driver.
+Warning: Wire sistem.\ram_data_in[22] is used but has no driver.
+Warning: Wire sistem.\ram_data_in[21] is used but has no driver.
+Warning: Wire sistem.\ram_data_in[20] is used but has no driver.
+Warning: Wire sistem.\ram_data_in[19] is used but has no driver.
+Warning: Wire sistem.\ram_data_in[18] is used but has no driver.
+Warning: Wire sistem.\ram_data_in[17] is used but has no driver.
+Warning: Wire sistem.\ram_data_in[16] is used but has no driver.
+Warning: Wire sistem.\ram_data_in[15] is used but has no driver.
+Warning: Wire sistem.\ram_data_in[14] is used but has no driver.
+Warning: Wire sistem.\ram_data_in[13] is used but has no driver.
+Warning: Wire sistem.\ram_data_in[12] is used but has no driver.
+Warning: Wire sistem.\ram_data_in[11] is used but has no driver.
+Warning: Wire sistem.\ram_data_in[10] is used but has no driver.
+Warning: Wire sistem.\ram_data_in[9] is used but has no driver.
+Warning: Wire sistem.\ram_data_in[8] is used but has no driver.
+Warning: Wire sistem.\pc_addition[11] is used but has no driver.
+Warning: Wire sistem.\pc_addition[10] is used but has no driver.
+Warning: Wire sistem.\pc_addition[9] is used but has no driver.
+Warning: Wire sistem.\pc_addition[8] is used but has no driver.
+Warning: Wire sistem.\pc_addition[7] is used but has no driver.
+Warning: Wire sistem.\pc_addition[6] is used but has no driver.
+Warning: Wire sistem.\pc_addition[5] is used but has no driver.
+Warning: Wire sistem.\pc_addition[4] is used but has no driver.
+Warning: Wire sistem.\pc_addition[3] is used but has no driver.
+Warning: Wire sistem.\pc_addition[2] is used but has no driver.
+Warning: Wire sistem.\pc_addition[1] is used but has no driver.
+Warning: Wire sistem.\pc_addition[0] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[31] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[30] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[29] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[28] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[27] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[26] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[25] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[24] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[23] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[22] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[21] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[20] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[19] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[18] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[17] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[16] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[15] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[14] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[13] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[12] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[11] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[10] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[9] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[8] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[7] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[6] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[5] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[4] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[3] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[2] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[1] is used but has no driver.
+Warning: Wire sistem.\alu_data_in2[0] is used but has no driver.
+Found and reported 100 problems.
+
+67. Printing statistics.
+
+=== sistem ===
+
+   Number of wires:                437
+   Number of wire bits:            479
+   Number of public wires:         314
+   Number of public wire bits:     356
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                229
+     alu                             1
+     control_unity                   1
+     instruction_coder               1
+     memory_ram                      1
+     program_counter                 1
+     register                        1
+     sky130_fd_sc_hd__a21bo_2        1
+     sky130_fd_sc_hd__a21boi_2       1
+     sky130_fd_sc_hd__a21o_2        21
+     sky130_fd_sc_hd__a311o_2        1
+     sky130_fd_sc_hd__and2_2        11
+     sky130_fd_sc_hd__and2b_2        1
+     sky130_fd_sc_hd__and4bb_2       1
+     sky130_fd_sc_hd__buf_1         74
+     sky130_fd_sc_hd__inv_2          2
+     sky130_fd_sc_hd__mux2_2        55
+     sky130_fd_sc_hd__nor2b_2        1
+     sky130_fd_sc_hd__nor3_2         1
+     sky130_fd_sc_hd__o21a_2        18
+     sky130_fd_sc_hd__o22a_2        24
+     sky130_fd_sc_hd__o31a_2         8
+     sky130_fd_sc_hd__or2_2          1
+     sky130_fd_sc_hd__or2b_2         1
+     sky130_fd_sc_hd__or3b_2         1
+
+   Area for cell type \control_unity is unknown!
+   Area for cell type \instruction_coder is unknown!
+   Area for cell type \program_counter is unknown!
+   Area for cell type \memory_ram is unknown!
+   Area for cell type \alu is unknown!
+   Area for cell type \register is unknown!
+
+   Chip area for module '\sistem': 1745.424000
+
+68. Executing Verilog backend.
+Dumping module `\sistem'.
+
+Warnings: 100 unique messages, 100 total
+End of script. Logfile hash: 005c196b97, CPU: user 0.40s system 0.01s, MEM: 30.78 MB peak
+Yosys 0.27+30 (git sha1 101075611, gcc 11.3.0-1ubuntu1~22.04.1 -fPIC -Os)
+Time spent: 45% 2x abc (0 sec), 13% 4x stat (0 sec), ...

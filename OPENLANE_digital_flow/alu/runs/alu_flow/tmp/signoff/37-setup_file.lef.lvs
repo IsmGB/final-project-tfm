@@ -1,0 +1,1 @@
+lvs {/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/alu/runs/alu_flow/results/signoff/alu.spice alu} {/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/alu/runs/alu_flow/tmp/signoff/34-alu.pnl.v alu} /foss/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/alu/runs/alu_flow/logs/signoff/37-alu.lef.lvs.log -json

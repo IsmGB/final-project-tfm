@@ -1,0 +1,1298 @@
+OpenSTA 2.4.0 555493cba6 Copyright (c) 2021, Parallax Software, Inc.
+License GPLv3: GNU GPL version 3 <http://gnu.org/licenses/gpl.html>
+
+This is free software, and you are free to change and redistribute it
+under certain conditions; type `show_copying' for details. 
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show_warranty'.
+define_corners Typical
+read_liberty -corner Typical /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+Reading netlist '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/sistem.nl.v'…
+Found '/// sta-blackbox' in '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/macro/bb/control_unity.v', skipping…
+Found '/// sta-blackbox' in '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/macro/bb/instruction_coder.v', skipping…
+Found '/// sta-blackbox' in '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/macro/bb/program_counter.v', skipping…
+Found '/// sta-blackbox' in '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/macro/bb/memory_ram.v', skipping…
+Found '/// sta-blackbox' in '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/macro/bb/alu.v', skipping…
+Found '/// sta-blackbox' in '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/macro/bb/register.v', skipping…
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/sistem.nl.v line 492, module alu not found. Creating black box for ALU.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/sistem.nl.v line 592, module control_unity not found. Creating black box for ControlUnity.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/sistem.nl.v line 623, module instruction_coder not found. Creating black box for InstructionCoder.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/sistem.nl.v line 723, module program_counter not found. Creating black box for ProgramCounter.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/sistem.nl.v line 749, module memory_ram not found. Creating black box for RAM.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/sistem.nl.v line 823, module register not found. Creating black box for Register.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/sistem.nl.v line 5029, module sky130_fd_sc_hd__tapvpwrvgnd_1 not found. Creating black box for TAP_3332.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/sistem.nl.v line 35960, module sky130_ef_sc_hd__decap_12 not found. Creating black box for FILLER_0_0_15.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/sistem.nl.v line 35961, module sky130_fd_sc_hd__fill_1 not found. Creating black box for FILLER_0_0_27.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/sistem.nl.v line 36126, module sky130_fd_sc_hd__fill_2 not found. Creating black box for FILLER_0_0_1541.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221312, *530 not connected to net alu_control\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221313, *1601 not connected to net alu_control\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221328, *1601 not connected to net alu_control\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221330, *530 not connected to net alu_control\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221338, *530 not connected to net alu_control\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221339, *1601 not connected to net alu_control\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221349, *1601 not connected to net alu_control\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221350, *530 not connected to net alu_control\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221358, *530 not connected to net alu_control\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221359, *1601 not connected to net alu_control\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221374, *1601 not connected to net alu_control\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221375, *530 not connected to net alu_control\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221383, *530 not connected to net alu_control\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221384, *1601 not connected to net alu_control\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221409, *1601 not connected to net alu_control\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221411, *530 not connected to net alu_control\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221419, *530 not connected to net alu_data_in1\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221420, *184352 not connected to net alu_data_in1\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221450, *184352 not connected to net alu_data_in1\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221454, *530 not connected to net alu_data_in1\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221462, *530 not connected to net alu_data_in1\[10\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221463, *184352 not connected to net alu_data_in1\[10\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221501, *184352 not connected to net alu_data_in1\[10\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221504, *530 not connected to net alu_data_in1\[10\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221512, *530 not connected to net alu_data_in1\[11\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221513, *184352 not connected to net alu_data_in1\[11\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221545, *184352 not connected to net alu_data_in1\[11\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221549, *530 not connected to net alu_data_in1\[11\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221557, *530 not connected to net alu_data_in1\[12\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221558, *184352 not connected to net alu_data_in1\[12\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221571, *184352 not connected to net alu_data_in1\[12\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221575, *530 not connected to net alu_data_in1\[12\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221583, *530 not connected to net alu_data_in1\[13\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221584, *184352 not connected to net alu_data_in1\[13\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221598, *184352 not connected to net alu_data_in1\[13\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221602, *530 not connected to net alu_data_in1\[13\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221610, *530 not connected to net alu_data_in1\[14\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221611, *184352 not connected to net alu_data_in1\[14\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221638, *184352 not connected to net alu_data_in1\[14\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221643, *530 not connected to net alu_data_in1\[14\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221651, *530 not connected to net alu_data_in1\[15\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221652, *184352 not connected to net alu_data_in1\[15\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221682, *184352 not connected to net alu_data_in1\[15\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221688, *530 not connected to net alu_data_in1\[15\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221696, *530 not connected to net alu_data_in1\[16\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221697, *184352 not connected to net alu_data_in1\[16\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221718, *184352 not connected to net alu_data_in1\[16\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221721, *530 not connected to net alu_data_in1\[16\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221729, *530 not connected to net alu_data_in1\[17\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221730, *184352 not connected to net alu_data_in1\[17\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221748, *184352 not connected to net alu_data_in1\[17\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221751, *530 not connected to net alu_data_in1\[17\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221759, *530 not connected to net alu_data_in1\[18\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221760, *184352 not connected to net alu_data_in1\[18\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221797, *184352 not connected to net alu_data_in1\[18\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221799, *530 not connected to net alu_data_in1\[18\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221807, *530 not connected to net alu_data_in1\[19\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221808, *184352 not connected to net alu_data_in1\[19\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221834, *184352 not connected to net alu_data_in1\[19\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221836, *530 not connected to net alu_data_in1\[19\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221844, *530 not connected to net alu_data_in1\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221845, *184352 not connected to net alu_data_in1\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221858, *184352 not connected to net alu_data_in1\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221860, *530 not connected to net alu_data_in1\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221868, *530 not connected to net alu_data_in1\[20\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221869, *184352 not connected to net alu_data_in1\[20\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221906, *184352 not connected to net alu_data_in1\[20\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221912, *530 not connected to net alu_data_in1\[20\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221920, *530 not connected to net alu_data_in1\[21\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221921, *184352 not connected to net alu_data_in1\[21\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221966, *184352 not connected to net alu_data_in1\[21\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221967, *530 not connected to net alu_data_in1\[21\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221975, *530 not connected to net alu_data_in1\[22\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 221976, *184352 not connected to net alu_data_in1\[22\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222009, *184352 not connected to net alu_data_in1\[22\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222011, *530 not connected to net alu_data_in1\[22\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222019, *530 not connected to net alu_data_in1\[23\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222020, *184352 not connected to net alu_data_in1\[23\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222044, *184352 not connected to net alu_data_in1\[23\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222048, *530 not connected to net alu_data_in1\[23\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222056, *530 not connected to net alu_data_in1\[24\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222057, *184352 not connected to net alu_data_in1\[24\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222111, *184352 not connected to net alu_data_in1\[24\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222115, *530 not connected to net alu_data_in1\[24\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222116, *530 not connected to net alu_data_in1\[24\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222124, *530 not connected to net alu_data_in1\[25\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222125, *184352 not connected to net alu_data_in1\[25\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222146, *184352 not connected to net alu_data_in1\[25\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222148, *530 not connected to net alu_data_in1\[25\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222156, *530 not connected to net alu_data_in1\[26\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222157, *184352 not connected to net alu_data_in1\[26\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222173, *184352 not connected to net alu_data_in1\[26\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222177, *530 not connected to net alu_data_in1\[26\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222185, *530 not connected to net alu_data_in1\[27\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222186, *184352 not connected to net alu_data_in1\[27\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222228, *184352 not connected to net alu_data_in1\[27\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222231, *530 not connected to net alu_data_in1\[27\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222239, *530 not connected to net alu_data_in1\[28\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222240, *184352 not connected to net alu_data_in1\[28\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222276, *184352 not connected to net alu_data_in1\[28\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222278, *530 not connected to net alu_data_in1\[28\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222286, *530 not connected to net alu_data_in1\[29\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222287, *184352 not connected to net alu_data_in1\[29\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222321, *184352 not connected to net alu_data_in1\[29\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222325, *530 not connected to net alu_data_in1\[29\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222333, *530 not connected to net alu_data_in1\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222334, *184352 not connected to net alu_data_in1\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222368, *184352 not connected to net alu_data_in1\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222370, *530 not connected to net alu_data_in1\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222378, *530 not connected to net alu_data_in1\[30\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222379, *184352 not connected to net alu_data_in1\[30\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222400, *184352 not connected to net alu_data_in1\[30\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222402, *530 not connected to net alu_data_in1\[30\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222410, *530 not connected to net alu_data_in1\[31\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222411, *184352 not connected to net alu_data_in1\[31\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222440, *184352 not connected to net alu_data_in1\[31\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222442, *530 not connected to net alu_data_in1\[31\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222450, *530 not connected to net alu_data_in1\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222451, *184352 not connected to net alu_data_in1\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222478, *184352 not connected to net alu_data_in1\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222480, *530 not connected to net alu_data_in1\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222488, *530 not connected to net alu_data_in1\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222489, *184352 not connected to net alu_data_in1\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222518, *184352 not connected to net alu_data_in1\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222522, *530 not connected to net alu_data_in1\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222530, *530 not connected to net alu_data_in1\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222531, *184352 not connected to net alu_data_in1\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222564, *184352 not connected to net alu_data_in1\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222569, *530 not connected to net alu_data_in1\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222577, *530 not connected to net alu_data_in1\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222578, *184352 not connected to net alu_data_in1\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222597, *184352 not connected to net alu_data_in1\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222600, *530 not connected to net alu_data_in1\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222608, *530 not connected to net alu_data_in1\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222609, *184352 not connected to net alu_data_in1\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222636, *184352 not connected to net alu_data_in1\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222638, *530 not connected to net alu_data_in1\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222646, *530 not connected to net alu_data_in1\[8\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222647, *184352 not connected to net alu_data_in1\[8\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222678, *184352 not connected to net alu_data_in1\[8\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222680, *530 not connected to net alu_data_in1\[8\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222688, *530 not connected to net alu_data_in1\[9\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222689, *184352 not connected to net alu_data_in1\[9\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222708, *184352 not connected to net alu_data_in1\[9\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222712, *530 not connected to net alu_data_in1\[9\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222720, *530 not connected to net alu_data_in2\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222753, *530 not connected to net alu_data_in2\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222761, *530 not connected to net alu_data_in2\[10\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222770, *530 not connected to net alu_data_in2\[10\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222778, *530 not connected to net alu_data_in2\[11\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222805, *530 not connected to net alu_data_in2\[11\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222813, *530 not connected to net alu_data_in2\[12\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222847, *530 not connected to net alu_data_in2\[12\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222855, *530 not connected to net alu_data_in2\[13\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222875, *530 not connected to net alu_data_in2\[13\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222883, *530 not connected to net alu_data_in2\[14\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222902, *530 not connected to net alu_data_in2\[14\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222910, *530 not connected to net alu_data_in2\[15\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222940, *530 not connected to net alu_data_in2\[15\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222948, *530 not connected to net alu_data_in2\[16\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222969, *530 not connected to net alu_data_in2\[16\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222977, *530 not connected to net alu_data_in2\[17\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 222996, *530 not connected to net alu_data_in2\[17\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223004, *530 not connected to net alu_data_in2\[18\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223044, *530 not connected to net alu_data_in2\[18\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223052, *530 not connected to net alu_data_in2\[19\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223098, *530 not connected to net alu_data_in2\[19\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223106, *530 not connected to net alu_data_in2\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223138, *530 not connected to net alu_data_in2\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223146, *530 not connected to net alu_data_in2\[20\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223165, *530 not connected to net alu_data_in2\[20\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223173, *530 not connected to net alu_data_in2\[21\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223204, *530 not connected to net alu_data_in2\[21\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223212, *530 not connected to net alu_data_in2\[22\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223252, *530 not connected to net alu_data_in2\[22\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223260, *530 not connected to net alu_data_in2\[23\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223316, *530 not connected to net alu_data_in2\[23\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223324, *530 not connected to net alu_data_in2\[24\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223355, *530 not connected to net alu_data_in2\[24\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223363, *530 not connected to net alu_data_in2\[25\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223386, *530 not connected to net alu_data_in2\[25\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223394, *530 not connected to net alu_data_in2\[26\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223415, *530 not connected to net alu_data_in2\[26\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223423, *530 not connected to net alu_data_in2\[27\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223452, *530 not connected to net alu_data_in2\[27\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223460, *530 not connected to net alu_data_in2\[28\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223486, *530 not connected to net alu_data_in2\[28\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223494, *530 not connected to net alu_data_in2\[29\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223528, *530 not connected to net alu_data_in2\[29\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223529, *530 not connected to net alu_data_in2\[29\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223537, *530 not connected to net alu_data_in2\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223548, *530 not connected to net alu_data_in2\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223556, *530 not connected to net alu_data_in2\[30\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223573, *530 not connected to net alu_data_in2\[30\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223581, *530 not connected to net alu_data_in2\[31\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223605, *530 not connected to net alu_data_in2\[31\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223613, *530 not connected to net alu_data_in2\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223619, *530 not connected to net alu_data_in2\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223627, *530 not connected to net alu_data_in2\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223668, *530 not connected to net alu_data_in2\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223676, *530 not connected to net alu_data_in2\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223692, *530 not connected to net alu_data_in2\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223700, *530 not connected to net alu_data_in2\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223712, *530 not connected to net alu_data_in2\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223720, *530 not connected to net alu_data_in2\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223738, *530 not connected to net alu_data_in2\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223746, *530 not connected to net alu_data_in2\[8\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223816, *530 not connected to net alu_data_in2\[8\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223817, *530 not connected to net alu_data_in2\[8\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223825, *530 not connected to net alu_data_in2\[9\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223837, *530 not connected to net alu_data_in2\[9\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223856, *184351 not connected to net alu_data_out\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223863, *530 not connected to net alu_data_out\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 223985, *530 not connected to net alu_data_out\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224000, *184351 not connected to net alu_data_out\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224015, *530 not connected to net alu_data_out\[10\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224066, *530 not connected to net alu_data_out\[10\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224077, *530 not connected to net alu_data_out\[11\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224161, *530 not connected to net alu_data_out\[11\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224174, *530 not connected to net alu_data_out\[12\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224229, *530 not connected to net alu_data_out\[12\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224242, *530 not connected to net alu_data_out\[13\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224280, *530 not connected to net alu_data_out\[13\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224289, *530 not connected to net alu_data_out\[14\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224325, *530 not connected to net alu_data_out\[14\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224333, *530 not connected to net alu_data_out\[15\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224366, *530 not connected to net alu_data_out\[15\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224374, *530 not connected to net alu_data_out\[16\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224414, *530 not connected to net alu_data_out\[16\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224426, *530 not connected to net alu_data_out\[17\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224491, *530 not connected to net alu_data_out\[17\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224492, *530 not connected to net alu_data_out\[17\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224505, *530 not connected to net alu_data_out\[18\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224562, *530 not connected to net alu_data_out\[18\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224574, *530 not connected to net alu_data_out\[19\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224601, *530 not connected to net alu_data_out\[19\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224638, *184351 not connected to net alu_data_out\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224658, *530 not connected to net alu_data_out\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224793, *530 not connected to net alu_data_out\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224825, *184351 not connected to net alu_data_out\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224838, *530 not connected to net alu_data_out\[20\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224859, *530 not connected to net alu_data_out\[20\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224869, *530 not connected to net alu_data_out\[21\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224919, *530 not connected to net alu_data_out\[21\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224932, *530 not connected to net alu_data_out\[22\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224965, *530 not connected to net alu_data_out\[22\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 224975, *530 not connected to net alu_data_out\[23\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225018, *530 not connected to net alu_data_out\[23\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225028, *530 not connected to net alu_data_out\[24\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225049, *530 not connected to net alu_data_out\[24\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225058, *530 not connected to net alu_data_out\[25\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225102, *530 not connected to net alu_data_out\[25\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225110, *530 not connected to net alu_data_out\[26\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225131, *530 not connected to net alu_data_out\[26\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225143, *530 not connected to net alu_data_out\[27\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225182, *530 not connected to net alu_data_out\[27\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225196, *530 not connected to net alu_data_out\[28\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225252, *530 not connected to net alu_data_out\[28\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225266, *530 not connected to net alu_data_out\[29\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225318, *530 not connected to net alu_data_out\[29\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225319, *530 not connected to net alu_data_out\[29\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225392, *530 not connected to net alu_data_out\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225397, *184351 not connected to net alu_data_out\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225563, *184351 not connected to net alu_data_out\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225579, *530 not connected to net alu_data_out\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225613, *530 not connected to net alu_data_out\[30\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225646, *530 not connected to net alu_data_out\[30\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225654, *530 not connected to net alu_data_out\[31\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225698, *530 not connected to net alu_data_out\[31\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225748, *184351 not connected to net alu_data_out\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225754, *530 not connected to net alu_data_out\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225907, *530 not connected to net alu_data_out\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225908, *530 not connected to net alu_data_out\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 225923, *184351 not connected to net alu_data_out\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 226006, *184351 not connected to net alu_data_out\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 226007, *530 not connected to net alu_data_out\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 226234, *530 not connected to net alu_data_out\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 226237, *184351 not connected to net alu_data_out\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 226238, *184351 not connected to net alu_data_out\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 226319, *184351 not connected to net alu_data_out\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 226333, *530 not connected to net alu_data_out\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 226522, *530 not connected to net alu_data_out\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 226543, *184351 not connected to net alu_data_out\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 226576, *184351 not connected to net alu_data_out\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 226580, *530 not connected to net alu_data_out\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 226689, *530 not connected to net alu_data_out\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 226702, *184351 not connected to net alu_data_out\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 226733, *184351 not connected to net alu_data_out\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 226734, *530 not connected to net alu_data_out\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 226825, *530 not connected to net alu_data_out\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 226828, *184351 not connected to net alu_data_out\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 226829, *184351 not connected to net alu_data_out\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 226847, *530 not connected to net alu_data_out\[8\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 226885, *530 not connected to net alu_data_out\[8\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 226893, *530 not connected to net alu_data_out\[9\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 226923, *530 not connected to net alu_data_out\[9\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227345, *1601 not connected to net databus\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227413, *1601 not connected to net databus\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227517, *1601 not connected to net databus\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227584, *1601 not connected to net databus\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227595, *1601 not connected to net funct3\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227596, *181017 not connected to net funct3\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227639, *181017 not connected to net funct3\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227642, *1601 not connected to net funct3\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227683, *1601 not connected to net funct3\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227684, *181017 not connected to net funct3\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227703, *181017 not connected to net funct3\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227705, *1601 not connected to net funct3\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227713, *1601 not connected to net funct7\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227714, *181017 not connected to net funct7\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227729, *181017 not connected to net funct7\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227730, *1601 not connected to net funct7\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227731, *181017 not connected to net funct7\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227739, *1601 not connected to net funct7\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227740, *181017 not connected to net funct7\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227760, *181017 not connected to net funct7\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227762, *1601 not connected to net funct7\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227770, *1601 not connected to net funct7\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227771, *181017 not connected to net funct7\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227794, *181017 not connected to net funct7\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227797, *1601 not connected to net funct7\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227835, *1601 not connected to net funct7\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227836, *181017 not connected to net funct7\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227876, *181017 not connected to net funct7\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227880, *1601 not connected to net funct7\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227888, *1601 not connected to net funct7\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227889, *181017 not connected to net funct7\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227921, *181017 not connected to net funct7\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227925, *1601 not connected to net funct7\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227933, *1601 not connected to net funct7\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227934, *181017 not connected to net funct7\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227955, *181017 not connected to net funct7\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 227958, *1601 not connected to net funct7\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228102, *181017 not connected to net immediateB\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228123, *181017 not connected to net immediateB\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228131, *181017 not connected to net immediateB\[10\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228159, *181017 not connected to net immediateB\[10\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228194, *181017 not connected to net immediateB\[11\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228357, *181017 not connected to net immediateB\[11\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228369, *181017 not connected to net immediateB\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228416, *181017 not connected to net immediateB\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228425, *181017 not connected to net immediateB\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228461, *181017 not connected to net immediateB\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228472, *181017 not connected to net immediateB\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228514, *181017 not connected to net immediateB\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228523, *181017 not connected to net immediateB\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228545, *181017 not connected to net immediateB\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228555, *181017 not connected to net immediateB\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228577, *181017 not connected to net immediateB\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228586, *181017 not connected to net immediateB\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228622, *181017 not connected to net immediateB\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228623, *181017 not connected to net immediateB\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228631, *181017 not connected to net immediateB\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228652, *181017 not connected to net immediateB\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228660, *181017 not connected to net immediateB\[8\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228687, *181017 not connected to net immediateB\[8\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228698, *181017 not connected to net immediateB\[9\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228746, *181017 not connected to net immediateB\[9\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228755, *181017 not connected to net immediateI\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228777, *181017 not connected to net immediateI\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228790, *181017 not connected to net immediateI\[10\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228851, *181017 not connected to net immediateI\[10\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228866, *181017 not connected to net immediateI\[11\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228919, *181017 not connected to net immediateI\[11\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228933, *181017 not connected to net immediateI\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228962, *181017 not connected to net immediateI\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228972, *181017 not connected to net immediateI\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 228995, *181017 not connected to net immediateI\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229005, *181017 not connected to net immediateI\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229035, *181017 not connected to net immediateI\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229044, *181017 not connected to net immediateI\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229062, *181017 not connected to net immediateI\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229073, *181017 not connected to net immediateI\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229138, *181017 not connected to net immediateI\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229157, *181017 not connected to net immediateI\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229234, *181017 not connected to net immediateI\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229251, *181017 not connected to net immediateI\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229265, *181017 not connected to net immediateI\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229276, *181017 not connected to net immediateI\[8\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229317, *181017 not connected to net immediateI\[8\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229326, *181017 not connected to net immediateI\[9\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229335, *181017 not connected to net immediateI\[9\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229345, *181017 not connected to net immediateS\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229375, *181017 not connected to net immediateS\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229388, *181017 not connected to net immediateS\[10\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229454, *181017 not connected to net immediateS\[10\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229463, *181017 not connected to net immediateS\[11\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229478, *181017 not connected to net immediateS\[11\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229490, *181017 not connected to net immediateS\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229553, *181017 not connected to net immediateS\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229565, *181017 not connected to net immediateS\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229613, *181017 not connected to net immediateS\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229622, *181017 not connected to net immediateS\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229649, *181017 not connected to net immediateS\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229660, *181017 not connected to net immediateS\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229737, *181017 not connected to net immediateS\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229750, *181017 not connected to net immediateS\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229808, *181017 not connected to net immediateS\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229829, *181017 not connected to net immediateS\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229872, *181017 not connected to net immediateS\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229888, *181017 not connected to net immediateS\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229939, *181017 not connected to net immediateS\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229949, *181017 not connected to net immediateS\[8\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229984, *181017 not connected to net immediateS\[8\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 229996, *181017 not connected to net immediateS\[9\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230048, *181017 not connected to net immediateS\[9\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230057, *181017 not connected to net net1.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230089, *181017 not connected to net net1.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230097, *181017 not connected to net net10.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230136, *181017 not connected to net net10.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230137, *181017 not connected to net net10.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230145, *181017 not connected to net net11.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230180, *181017 not connected to net net11.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230188, *181017 not connected to net net12.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230208, *181017 not connected to net net12.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230216, *181017 not connected to net net13.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230237, *181017 not connected to net net13.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230245, *181017 not connected to net net14.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230266, *181017 not connected to net net14.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230274, *181017 not connected to net net15.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230305, *181017 not connected to net net15.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230313, *181017 not connected to net net16.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230341, *181017 not connected to net net16.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230349, *181017 not connected to net net17.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230386, *181017 not connected to net net17.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230394, *181017 not connected to net net18.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230418, *181017 not connected to net net18.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230426, *181017 not connected to net net19.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230458, *181017 not connected to net net19.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230466, *181017 not connected to net net2.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230485, *181017 not connected to net net2.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230493, *181017 not connected to net net20.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230549, *181017 not connected to net net20.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230557, *181017 not connected to net net21.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230581, *181017 not connected to net net21.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230589, *181017 not connected to net net22.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230622, *181017 not connected to net net22.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230630, *181017 not connected to net net23.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230687, *181017 not connected to net net23.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230695, *181017 not connected to net net24.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230759, *181017 not connected to net net24.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230767, *181017 not connected to net net25.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230798, *181017 not connected to net net25.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230806, *181017 not connected to net net26.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230836, *181017 not connected to net net26.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230844, *181017 not connected to net net27.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230920, *181017 not connected to net net27.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230928, *181017 not connected to net net28.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230959, *181017 not connected to net net28.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230967, *181017 not connected to net net29.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 230993, *181017 not connected to net net29.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231001, *181017 not connected to net net3.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231023, *181017 not connected to net net3.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231031, *181017 not connected to net net30.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231068, *181017 not connected to net net30.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231076, *181017 not connected to net net31.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231117, *181017 not connected to net net31.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231125, *181017 not connected to net net32.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231163, *181017 not connected to net net32.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231264, *184350 not connected to net net34.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231297, *184350 not connected to net net34.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231298, *184350 not connected to net net34.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231307, *184350 not connected to net net35.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231323, *184350 not connected to net net35.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231338, *184350 not connected to net net36.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231394, *184350 not connected to net net36.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231395, *184350 not connected to net net36.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231429, *184350 not connected to net net37.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231494, *184350 not connected to net net37.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231516, *184350 not connected to net net38.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231559, *184350 not connected to net net38.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231635, *184350 not connected to net net39.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231724, *184350 not connected to net net39.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231725, *184350 not connected to net net39.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231780, *181017 not connected to net net4.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231840, *181017 not connected to net net4.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231870, *184350 not connected to net net40.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231928, *184350 not connected to net net40.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231947, *184350 not connected to net net41.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 231959, *184350 not connected to net net41.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232039, *184350 not connected to net net42.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232209, *184350 not connected to net net42.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232290, *184350 not connected to net net43.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232375, *184350 not connected to net net43.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232402, *184350 not connected to net net44.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232431, *184350 not connected to net net44.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232441, *184350 not connected to net net45.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232461, *184350 not connected to net net45.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232470, *181017 not connected to net net5.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232513, *181017 not connected to net net5.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232521, *181017 not connected to net net6.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232565, *181017 not connected to net net6.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232573, *181017 not connected to net net7.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232621, *181017 not connected to net net7.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232629, *181017 not connected to net net8.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232671, *181017 not connected to net net8.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232679, *181017 not connected to net net9.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232717, *181017 not connected to net net9.
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232725, *1601 not connected to net opcode\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232726, *181017 not connected to net opcode\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232740, *181017 not connected to net opcode\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232742, *1601 not connected to net opcode\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232750, *1601 not connected to net opcode\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232751, *181017 not connected to net opcode\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232772, *181017 not connected to net opcode\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232774, *1601 not connected to net opcode\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232782, *1601 not connected to net opcode\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232783, *181017 not connected to net opcode\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232812, *181017 not connected to net opcode\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232815, *1601 not connected to net opcode\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232868, *1601 not connected to net opcode\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232869, *181017 not connected to net opcode\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232888, *181017 not connected to net opcode\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232889, *1601 not connected to net opcode\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232897, *1601 not connected to net opcode\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232898, *181017 not connected to net opcode\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232934, *181017 not connected to net opcode\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232937, *1601 not connected to net opcode\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232945, *1601 not connected to net opcode\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232946, *181017 not connected to net opcode\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232986, *181017 not connected to net opcode\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232988, *1601 not connected to net opcode\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 232996, *184350 not connected to net pc_addition\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233012, *184350 not connected to net pc_addition\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233020, *184350 not connected to net pc_addition\[10\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233047, *184350 not connected to net pc_addition\[10\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233055, *184350 not connected to net pc_addition\[11\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233082, *184350 not connected to net pc_addition\[11\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233090, *184350 not connected to net pc_addition\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233113, *184350 not connected to net pc_addition\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233121, *184350 not connected to net pc_addition\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233131, *184350 not connected to net pc_addition\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233139, *184350 not connected to net pc_addition\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233168, *184350 not connected to net pc_addition\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233176, *184350 not connected to net pc_addition\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233186, *184350 not connected to net pc_addition\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233194, *184350 not connected to net pc_addition\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233222, *184350 not connected to net pc_addition\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233230, *184350 not connected to net pc_addition\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233265, *184350 not connected to net pc_addition\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233273, *184350 not connected to net pc_addition\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233291, *184350 not connected to net pc_addition\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233299, *184350 not connected to net pc_addition\[8\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233318, *184350 not connected to net pc_addition\[8\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233326, *184350 not connected to net pc_addition\[9\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233365, *184350 not connected to net pc_addition\[9\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233397, *184351 not connected to net ram_data_in\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233413, *184352 not connected to net ram_data_in\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233557, *184352 not connected to net ram_data_in\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233584, *184351 not connected to net ram_data_in\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233592, *184351 not connected to net ram_data_in\[10\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233599, *184351 not connected to net ram_data_in\[10\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233607, *184351 not connected to net ram_data_in\[11\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233621, *184351 not connected to net ram_data_in\[11\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233629, *184351 not connected to net ram_data_in\[12\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233638, *184351 not connected to net ram_data_in\[12\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233646, *184351 not connected to net ram_data_in\[13\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233656, *184351 not connected to net ram_data_in\[13\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233664, *184351 not connected to net ram_data_in\[14\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233762, *184351 not connected to net ram_data_in\[14\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233770, *184351 not connected to net ram_data_in\[15\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233783, *184351 not connected to net ram_data_in\[15\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233791, *184351 not connected to net ram_data_in\[16\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233802, *184351 not connected to net ram_data_in\[16\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233810, *184351 not connected to net ram_data_in\[17\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233835, *184351 not connected to net ram_data_in\[17\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233843, *184351 not connected to net ram_data_in\[18\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233854, *184351 not connected to net ram_data_in\[18\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233862, *184351 not connected to net ram_data_in\[19\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233879, *184351 not connected to net ram_data_in\[19\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233903, *184351 not connected to net ram_data_in\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 233904, *184352 not connected to net ram_data_in\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234027, *184352 not connected to net ram_data_in\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234032, *184351 not connected to net ram_data_in\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234033, *184351 not connected to net ram_data_in\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234041, *184351 not connected to net ram_data_in\[20\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234051, *184351 not connected to net ram_data_in\[20\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234059, *184351 not connected to net ram_data_in\[21\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234084, *184351 not connected to net ram_data_in\[21\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234092, *184351 not connected to net ram_data_in\[22\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234110, *184351 not connected to net ram_data_in\[22\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234118, *184351 not connected to net ram_data_in\[23\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234139, *184351 not connected to net ram_data_in\[23\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234147, *184351 not connected to net ram_data_in\[24\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234169, *184351 not connected to net ram_data_in\[24\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234177, *184351 not connected to net ram_data_in\[25\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234187, *184351 not connected to net ram_data_in\[25\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234195, *184351 not connected to net ram_data_in\[26\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234220, *184351 not connected to net ram_data_in\[26\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234228, *184351 not connected to net ram_data_in\[27\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234238, *184351 not connected to net ram_data_in\[27\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234246, *184351 not connected to net ram_data_in\[28\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234279, *184351 not connected to net ram_data_in\[28\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234287, *184351 not connected to net ram_data_in\[29\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234306, *184351 not connected to net ram_data_in\[29\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234319, *184352 not connected to net ram_data_in\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234321, *184351 not connected to net ram_data_in\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234430, *184351 not connected to net ram_data_in\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234439, *184352 not connected to net ram_data_in\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234448, *184351 not connected to net ram_data_in\[30\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234460, *184351 not connected to net ram_data_in\[30\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234468, *184351 not connected to net ram_data_in\[31\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234488, *184351 not connected to net ram_data_in\[31\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234500, *184352 not connected to net ram_data_in\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234503, *184351 not connected to net ram_data_in\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234569, *184351 not connected to net ram_data_in\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234573, *184352 not connected to net ram_data_in\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234629, *184352 not connected to net ram_data_in\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234650, *184351 not connected to net ram_data_in\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234849, *184351 not connected to net ram_data_in\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234850, *184351 not connected to net ram_data_in\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234891, *184352 not connected to net ram_data_in\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234980, *184351 not connected to net ram_data_in\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 234981, *184352 not connected to net ram_data_in\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 235134, *184352 not connected to net ram_data_in\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 235147, *184351 not connected to net ram_data_in\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 235191, *184351 not connected to net ram_data_in\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 235192, *184352 not connected to net ram_data_in\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 235277, *184352 not connected to net ram_data_in\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 235280, *184351 not connected to net ram_data_in\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 235329, *184351 not connected to net ram_data_in\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 235334, *184352 not connected to net ram_data_in\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 235533, *184352 not connected to net ram_data_in\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 235554, *184351 not connected to net ram_data_in\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 235569, *184351 not connected to net ram_data_in\[8\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 235612, *184351 not connected to net ram_data_in\[8\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 235620, *184351 not connected to net ram_data_in\[9\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 235631, *184351 not connected to net ram_data_in\[9\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 235641, *184351 not connected to net ram_data_out\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 235667, *184351 not connected to net ram_data_out\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 235680, *184351 not connected to net ram_data_out\[10\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 235736, *184351 not connected to net ram_data_out\[10\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 235753, *184351 not connected to net ram_data_out\[11\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 235854, *184351 not connected to net ram_data_out\[11\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 235877, *184351 not connected to net ram_data_out\[12\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 236017, *184351 not connected to net ram_data_out\[12\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 236037, *184351 not connected to net ram_data_out\[13\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 236123, *184351 not connected to net ram_data_out\[13\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 236144, *184351 not connected to net ram_data_out\[14\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 236203, *184351 not connected to net ram_data_out\[14\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 236218, *184351 not connected to net ram_data_out\[15\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 236312, *184351 not connected to net ram_data_out\[15\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 236340, *184351 not connected to net ram_data_out\[16\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 236488, *184351 not connected to net ram_data_out\[16\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 236537, *184351 not connected to net ram_data_out\[17\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 236683, *184351 not connected to net ram_data_out\[17\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 236757, *184351 not connected to net ram_data_out\[18\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 236872, *184351 not connected to net ram_data_out\[18\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 236961, *184351 not connected to net ram_data_out\[19\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237080, *184351 not connected to net ram_data_out\[19\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237081, *184351 not connected to net ram_data_out\[19\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237125, *184351 not connected to net ram_data_out\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237163, *184351 not connected to net ram_data_out\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237173, *184351 not connected to net ram_data_out\[20\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237215, *184351 not connected to net ram_data_out\[20\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237227, *184351 not connected to net ram_data_out\[21\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237292, *184351 not connected to net ram_data_out\[21\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237304, *184351 not connected to net ram_data_out\[22\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237366, *184351 not connected to net ram_data_out\[22\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237376, *184351 not connected to net ram_data_out\[23\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237400, *184351 not connected to net ram_data_out\[23\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237411, *184351 not connected to net ram_data_out\[24\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237472, *184351 not connected to net ram_data_out\[24\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237481, *184351 not connected to net ram_data_out\[25\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237532, *184351 not connected to net ram_data_out\[25\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237544, *184351 not connected to net ram_data_out\[26\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237624, *184351 not connected to net ram_data_out\[26\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237640, *184351 not connected to net ram_data_out\[27\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237744, *184351 not connected to net ram_data_out\[27\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237753, *184351 not connected to net ram_data_out\[28\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237796, *184351 not connected to net ram_data_out\[28\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237805, *184351 not connected to net ram_data_out\[29\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237837, *184351 not connected to net ram_data_out\[29\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237845, *184351 not connected to net ram_data_out\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237862, *184351 not connected to net ram_data_out\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237881, *184351 not connected to net ram_data_out\[30\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237983, *184351 not connected to net ram_data_out\[30\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 237996, *184351 not connected to net ram_data_out\[31\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 238057, *184351 not connected to net ram_data_out\[31\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 238134, *184351 not connected to net ram_data_out\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 238326, *184351 not connected to net ram_data_out\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 238507, *184351 not connected to net ram_data_out\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 238808, *184351 not connected to net ram_data_out\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 238917, *184351 not connected to net ram_data_out\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 239007, *184351 not connected to net ram_data_out\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 239106, *184351 not connected to net ram_data_out\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 239258, *184351 not connected to net ram_data_out\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 239301, *184351 not connected to net ram_data_out\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 239336, *184351 not connected to net ram_data_out\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 239349, *184351 not connected to net ram_data_out\[8\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 239431, *184351 not connected to net ram_data_out\[8\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 239535, *184351 not connected to net ram_data_out\[9\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 239700, *184351 not connected to net ram_data_out\[9\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 239701, *184351 not connected to net ram_data_out\[9\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 239849, *181017 not connected to net rd\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 239850, *184352 not connected to net rd\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 239888, *184352 not connected to net rd\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 239892, *181017 not connected to net rd\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 239900, *181017 not connected to net rd\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 239901, *184352 not connected to net rd\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 239922, *184352 not connected to net rd\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 239926, *181017 not connected to net rd\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 239974, *181017 not connected to net rd\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 239975, *184352 not connected to net rd\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240004, *184352 not connected to net rd\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240004, *181017 not connected to net rd\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240012, *181017 not connected to net rd\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240013, *184352 not connected to net rd\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240056, *184352 not connected to net rd\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240057, *181017 not connected to net rd\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240065, *181017 not connected to net register_data_addr1\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240066, *184352 not connected to net register_data_addr1\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240101, *184352 not connected to net register_data_addr1\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240105, *181017 not connected to net register_data_addr1\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240113, *181017 not connected to net register_data_addr1\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240114, *184352 not connected to net register_data_addr1\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240148, *184352 not connected to net register_data_addr1\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240151, *181017 not connected to net register_data_addr1\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240191, *181017 not connected to net register_data_addr1\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240192, *184352 not connected to net register_data_addr1\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240224, *184352 not connected to net register_data_addr1\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240226, *181017 not connected to net register_data_addr1\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240234, *181017 not connected to net register_data_addr1\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240235, *184352 not connected to net register_data_addr1\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240281, *184352 not connected to net register_data_addr1\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240287, *181017 not connected to net register_data_addr1\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240295, *181017 not connected to net register_data_addr2\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240296, *184352 not connected to net register_data_addr2\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240359, *184352 not connected to net register_data_addr2\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240365, *181017 not connected to net register_data_addr2\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240373, *181017 not connected to net register_data_addr2\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240374, *184352 not connected to net register_data_addr2\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240420, *184352 not connected to net register_data_addr2\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240425, *181017 not connected to net register_data_addr2\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240474, *181017 not connected to net register_data_addr2\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240475, *184352 not connected to net register_data_addr2\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240541, *184352 not connected to net register_data_addr2\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240548, *181017 not connected to net register_data_addr2\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240556, *181017 not connected to net register_data_addr2\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240557, *184352 not connected to net register_data_addr2\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240595, *184352 not connected to net register_data_addr2\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240598, *181017 not connected to net register_data_addr2\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240606, *184352 not connected to net register_data_in\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240623, *184352 not connected to net register_data_in\[0\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240631, *184352 not connected to net register_data_in\[10\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240695, *184352 not connected to net register_data_in\[10\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240703, *184352 not connected to net register_data_in\[11\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240723, *184352 not connected to net register_data_in\[11\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240731, *184352 not connected to net register_data_in\[12\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240766, *184352 not connected to net register_data_in\[12\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240774, *184352 not connected to net register_data_in\[13\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240836, *184352 not connected to net register_data_in\[13\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240844, *184352 not connected to net register_data_in\[14\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240872, *184352 not connected to net register_data_in\[14\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240880, *184352 not connected to net register_data_in\[15\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240907, *184352 not connected to net register_data_in\[15\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240915, *184352 not connected to net register_data_in\[16\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240953, *184352 not connected to net register_data_in\[16\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240961, *184352 not connected to net register_data_in\[17\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240991, *184352 not connected to net register_data_in\[17\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 240999, *184352 not connected to net register_data_in\[18\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241019, *184352 not connected to net register_data_in\[18\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241027, *184352 not connected to net register_data_in\[19\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241067, *184352 not connected to net register_data_in\[19\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241075, *184352 not connected to net register_data_in\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241103, *184352 not connected to net register_data_in\[1\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241111, *184352 not connected to net register_data_in\[20\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241129, *184352 not connected to net register_data_in\[20\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241137, *184352 not connected to net register_data_in\[21\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241171, *184352 not connected to net register_data_in\[21\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241179, *184352 not connected to net register_data_in\[22\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241207, *184352 not connected to net register_data_in\[22\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241215, *184352 not connected to net register_data_in\[23\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241222, *184352 not connected to net register_data_in\[23\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241230, *184352 not connected to net register_data_in\[24\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241257, *184352 not connected to net register_data_in\[24\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241265, *184352 not connected to net register_data_in\[25\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241288, *184352 not connected to net register_data_in\[25\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241296, *184352 not connected to net register_data_in\[26\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241358, *184352 not connected to net register_data_in\[26\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241366, *184352 not connected to net register_data_in\[27\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241416, *184352 not connected to net register_data_in\[27\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241424, *184352 not connected to net register_data_in\[28\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241458, *184352 not connected to net register_data_in\[28\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241466, *184352 not connected to net register_data_in\[29\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241532, *184352 not connected to net register_data_in\[29\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241540, *184352 not connected to net register_data_in\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241563, *184352 not connected to net register_data_in\[2\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241571, *184352 not connected to net register_data_in\[30\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241589, *184352 not connected to net register_data_in\[30\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241597, *184352 not connected to net register_data_in\[31\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241640, *184352 not connected to net register_data_in\[31\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241648, *184352 not connected to net register_data_in\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241668, *184352 not connected to net register_data_in\[3\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241676, *184352 not connected to net register_data_in\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241693, *184352 not connected to net register_data_in\[4\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241701, *184352 not connected to net register_data_in\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241730, *184352 not connected to net register_data_in\[5\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241738, *184352 not connected to net register_data_in\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241770, *184352 not connected to net register_data_in\[6\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241778, *184352 not connected to net register_data_in\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241794, *184352 not connected to net register_data_in\[7\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241802, *184352 not connected to net register_data_in\[8\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241809, *184352 not connected to net register_data_in\[8\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241817, *184352 not connected to net register_data_in\[9\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241855, *184352 not connected to net register_data_in\[9\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241868, *184352 not connected to net register_data_out2\[10\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241932, *184352 not connected to net register_data_out2\[10\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 241974, *184352 not connected to net register_data_out2\[11\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 242064, *184352 not connected to net register_data_out2\[11\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 242065, *184352 not connected to net register_data_out2\[11\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 242094, *184352 not connected to net register_data_out2\[12\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 242137, *184352 not connected to net register_data_out2\[12\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 242148, *184352 not connected to net register_data_out2\[13\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 242174, *184352 not connected to net register_data_out2\[13\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 242192, *184352 not connected to net register_data_out2\[14\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 242233, *184352 not connected to net register_data_out2\[14\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 242252, *184352 not connected to net register_data_out2\[15\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 242296, *184352 not connected to net register_data_out2\[15\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 242315, *184352 not connected to net register_data_out2\[16\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 242362, *184352 not connected to net register_data_out2\[16\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 242376, *184352 not connected to net register_data_out2\[17\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 242416, *184352 not connected to net register_data_out2\[17\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 242435, *184352 not connected to net register_data_out2\[18\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 242537, *184352 not connected to net register_data_out2\[18\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 242548, *184352 not connected to net register_data_out2\[19\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 242604, *184352 not connected to net register_data_out2\[19\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 242614, *184352 not connected to net register_data_out2\[20\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 242638, *184352 not connected to net register_data_out2\[20\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 242656, *184352 not connected to net register_data_out2\[21\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 242695, *184352 not connected to net register_data_out2\[21\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 242761, *184352 not connected to net register_data_out2\[22\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 242943, *184352 not connected to net register_data_out2\[22\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 242993, *184352 not connected to net register_data_out2\[23\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 243102, *184352 not connected to net register_data_out2\[23\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 243117, *184352 not connected to net register_data_out2\[24\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 243160, *184352 not connected to net register_data_out2\[24\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 243174, *184352 not connected to net register_data_out2\[25\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 243293, *184352 not connected to net register_data_out2\[25\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 243333, *184352 not connected to net register_data_out2\[26\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 243438, *184352 not connected to net register_data_out2\[26\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 243502, *184352 not connected to net register_data_out2\[27\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 243711, *184352 not connected to net register_data_out2\[27\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 243732, *184352 not connected to net register_data_out2\[28\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 243774, *184352 not connected to net register_data_out2\[28\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 243787, *184352 not connected to net register_data_out2\[29\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 243862, *184352 not connected to net register_data_out2\[29\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 243871, *184352 not connected to net register_data_out2\[30\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 243921, *184352 not connected to net register_data_out2\[30\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 243938, *184352 not connected to net register_data_out2\[31\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 244002, *184352 not connected to net register_data_out2\[31\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 244003, *184352 not connected to net register_data_out2\[31\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 244018, *184352 not connected to net register_data_out2\[8\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 244066, *184352 not connected to net register_data_out2\[8\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 244079, *184352 not connected to net register_data_out2\[9\].
+Warning: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.spef line 244119, *184352 not connected to net register_data_out2\[9\].
+min_report
+
+===========================================================================
+report_checks -path_delay min (Hold)
+============================================================================
+======================= Typical Corner ===================================
+
+No paths found.
+
+min_report_end
+max_report
+
+===========================================================================
+report_checks -path_delay max (Setup)
+============================================================================
+======================= Typical Corner ===================================
+
+No paths found.
+
+max_report_end
+checks_report
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= Typical Corner ===================================
+
+Startpoint: clk (clock source 'clk')
+Endpoint: Register/clk (internal pin)
+Path Group: unconstrained
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.44    0.35   15.35 v clk (in)
+     2    0.20                           clk (net)
+                  0.44    0.00   15.35 v clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+                  0.08    0.37   15.72 v clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+     2    0.08                           clknet_0_clk (net)
+                  0.08    0.01   15.73 v clkbuf_1_0__f_clk/A (sky130_fd_sc_hd__clkbuf_16)
+                  0.15    0.25   15.98 v clkbuf_1_0__f_clk/X (sky130_fd_sc_hd__clkbuf_16)
+     2    0.22                           clknet_1_0__leaf_clk (net)
+                  0.18    0.06   16.04 v Register/clk (register)
+                                 16.04   data arrival time
+-----------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= Typical Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= Typical Corner ===================================
+
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+_170_/X                                  10     11        (VIOLATED)
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 0 unannotated drivers.
+Found 132 partially unannotated drivers.
+ _126_/X
+  RAM/data_in[18]
+ _128_/X
+  RAM/data_in[17]
+ _130_/X
+  RAM/data_in[16]
+ _137_/X
+  RAM/data_in[15]
+ _139_/X
+  RAM/data_in[14]
+ _141_/X
+  RAM/data_in[13]
+ _143_/X
+  RAM/data_in[12]
+ _145_/X
+  RAM/data_in[11]
+ _147_/X
+  RAM/data_in[10]
+ _149_/X
+  RAM/data_in[9]
+ _151_/X
+  RAM/data_in[8]
+ _153_/X
+  RAM/data_in[7]
+ _155_/X
+  RAM/data_in[6]
+ _157_/X
+  RAM/data_in[5]
+ _159_/X
+  RAM/data_in[4]
+ _161_/X
+  RAM/data_in[3]
+ _163_/X
+  RAM/data_in[2]
+ _165_/X
+  RAM/data_in[1]
+ _167_/X
+  RAM/data_in[0]
+ _172_/X
+  ProgramCounter/addition[11]
+ _174_/X
+  ProgramCounter/addition[10]
+ _176_/X
+  ProgramCounter/addition[9]
+ _178_/X
+  ProgramCounter/addition[8]
+ _180_/X
+  ProgramCounter/addition[7]
+ _182_/X
+  ProgramCounter/addition[6]
+ _184_/X
+  ProgramCounter/addition[5]
+ _186_/X
+  ProgramCounter/addition[4]
+ _188_/X
+  ProgramCounter/addition[3]
+ _190_/X
+  ProgramCounter/addition[2]
+ _192_/X
+  ProgramCounter/addition[1]
+ _194_/X
+  ProgramCounter/addition[0]
+ _199_/X
+  ALU/data_in2[31]
+ _202_/X
+  ALU/data_in2[30]
+ _205_/X
+  ALU/data_in2[29]
+ _208_/X
+  ALU/data_in2[28]
+ _211_/X
+  ALU/data_in2[27]
+ _214_/X
+  ALU/data_in2[26]
+ _217_/X
+  ALU/data_in2[25]
+ _220_/X
+  ALU/data_in2[24]
+ _223_/X
+  ALU/data_in2[23]
+ _226_/X
+  ALU/data_in2[22]
+ _229_/X
+  ALU/data_in2[21]
+ _234_/X
+  ALU/data_in2[20]
+ _235_/X
+  ALU/data_in2[19]
+ _236_/X
+  ALU/data_in2[18]
+ _237_/X
+  ALU/data_in2[17]
+ _238_/X
+  ALU/data_in2[16]
+ _239_/X
+  ALU/data_in2[15]
+ _240_/X
+  ALU/data_in2[14]
+ _241_/X
+  ALU/data_in2[13]
+ _242_/X
+  ALU/data_in2[12]
+ _243_/X
+  ALU/data_in2[11]
+ _246_/X
+  ALU/data_in2[10]
+ _247_/X
+  ALU/data_in2[9]
+ _248_/X
+  ALU/data_in2[8]
+ _249_/X
+  ALU/data_in2[7]
+ _250_/X
+  ALU/data_in2[6]
+ _251_/X
+  ALU/data_in2[5]
+ _252_/X
+  ALU/data_in2[4]
+ _253_/X
+  ALU/data_in2[3]
+ _254_/X
+  ALU/data_in2[2]
+ _255_/X
+  ALU/data_in2[1]
+ _256_/X
+  ALU/data_in2[0]
+ _259_/X
+  Register/data_in[31]
+ _261_/X
+  Register/data_in[30]
+ _263_/X
+  Register/data_in[29]
+ _265_/X
+  Register/data_in[28]
+ _267_/X
+  Register/data_in[27]
+ _269_/X
+  Register/data_in[26]
+ _271_/X
+  Register/data_in[25]
+ _273_/X
+  Register/data_in[24]
+ _282_/X
+  Register/data_in[23]
+ _286_/X
+  Register/data_in[22]
+ _288_/X
+  Register/data_in[21]
+ _290_/X
+  Register/data_in[20]
+ _292_/X
+  Register/data_in[19]
+ _294_/X
+  Register/data_in[18]
+ _296_/X
+  Register/data_in[17]
+ _298_/X
+  Register/data_in[16]
+ _302_/X
+  Register/data_in[15]
+ _306_/X
+  Register/data_in[14]
+ _309_/X
+  Register/data_in[13]
+ _311_/X
+  Register/data_in[12]
+ _313_/X
+  Register/data_in[11]
+ _315_/X
+  Register/data_in[10]
+ _317_/X
+  Register/data_in[9]
+ _319_/X
+  Register/data_in[8]
+ _321_/X
+  Register/data_in[7]
+ _323_/X
+  Register/data_in[6]
+ _325_/X
+  Register/data_in[5]
+ _327_/X
+  Register/data_in[4]
+ _329_/X
+  Register/data_in[3]
+ _331_/X
+  Register/data_in[2]
+ _333_/X
+  Register/data_in[1]
+ _335_/X
+  Register/data_in[0]
+ _337_/X
+  RAM/data_in[23]
+ _339_/X
+  RAM/data_in[22]
+ _341_/X
+  RAM/data_in[21]
+ _343_/X
+  RAM/data_in[20]
+ _345_/X
+  RAM/data_in[19]
+ input1/X
+  InstructionCoder/data_in[31]
+ input10/X
+  InstructionCoder/data_in[13]
+ input11/X
+  InstructionCoder/data_in[12]
+ input12/X
+  InstructionCoder/data_in[30]
+ input13/X
+  InstructionCoder/data_in[11]
+ input14/X
+  InstructionCoder/data_in[10]
+ input15/X
+  InstructionCoder/data_in[9]
+ input16/X
+  InstructionCoder/data_in[8]
+ input17/X
+  InstructionCoder/data_in[7]
+ input18/X
+  InstructionCoder/data_in[6]
+ input19/X
+  InstructionCoder/data_in[5]
+ input2/X
+  InstructionCoder/data_in[21]
+ input20/X
+  InstructionCoder/data_in[4]
+ input21/X
+  InstructionCoder/data_in[3]
+ input22/X
+  InstructionCoder/data_in[2]
+ input23/X
+  InstructionCoder/data_in[29]
+ input24/X
+  InstructionCoder/data_in[1]
+ input25/X
+  InstructionCoder/data_in[0]
+ input26/X
+  InstructionCoder/data_in[28]
+ input27/X
+  InstructionCoder/data_in[27]
+ input28/X
+  InstructionCoder/data_in[26]
+ input29/X
+  InstructionCoder/data_in[25]
+ input3/X
+  InstructionCoder/data_in[20]
+ input30/X
+  InstructionCoder/data_in[24]
+ input31/X
+  InstructionCoder/data_in[23]
+ input32/X
+  InstructionCoder/data_in[22]
+ input4/X
+  InstructionCoder/data_in[19]
+ input5/X
+  InstructionCoder/data_in[18]
+ input6/X
+  InstructionCoder/data_in[17]
+ input7/X
+  InstructionCoder/data_in[16]
+ input8/X
+  InstructionCoder/data_in[15]
+ input9/X
+  InstructionCoder/data_in[14]
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 1
+max cap violation count 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There are 12 unconstrained endpoints.
+  count[0]
+  count[10]
+  count[11]
+  count[1]
+  count[2]
+  count[3]
+  count[4]
+  count[5]
+  count[6]
+  count[7]
+  count[8]
+  count[9]
+checks_report_end
+power_report
+
+===========================================================================
+ report_power
+============================================================================
+======================= Typical Corner ===================================
+
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Combinational          2.48e-05   4.25e-05   1.12e-07   6.74e-05 100.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  2.48e-05   4.25e-05   1.12e-07   6.74e-05 100.0%
+                          36.8%      63.0%       0.2%
+
+power_report_end
+skew_report
+
+===========================================================================
+report_clock_skew
+============================================================================
+Clock clk
+No launch/capture paths found.
+
+skew_report_end
+summary_report
+
+===========================================================================
+report_tns
+============================================================================
+tns 0.00
+
+===========================================================================
+report_wns
+============================================================================
+wns 0.00
+
+===========================================================================
+report_worst_slack -max (Setup)
+============================================================================
+worst slack INF
+
+===========================================================================
+report_worst_slack -min (Hold)
+============================================================================
+worst slack INF
+summary_report_end
+[WARNING] Did not save OpenROAD database!
+Writing SDF to '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.sdf'…
+Writing timing model to '/headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/sistem/runs/sistem_flow/results/routing/mca/process_corner_nom/sistem.lib'…

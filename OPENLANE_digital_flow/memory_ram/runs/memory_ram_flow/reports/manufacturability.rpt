@@ -1,0 +1,19 @@
+Design Name: memory_ram
+Run Directory: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/memory_ram/runs/memory_ram_flow
+----------------------------------------
+
+Magic DRC Summary:
+Source: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/memory_ram/runs/memory_ram_flow/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/memory_ram/runs/memory_ram_flow/logs/signoff/39-memory_ram.lef.lvs.log
+Number of nets: 42679                      |Number of nets: 42679                      
+Design is LVS clean.
+----------------------------------------
+
+Antenna Summary:
+Source: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/memory_ram/runs/memory_ram_flow/logs/signoff/41-antenna.log
+Pin violations: 622
+Net violations: 419

@@ -1,0 +1,19 @@
+Design Name: alu
+Run Directory: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/alu/runs/alu_flow
+----------------------------------------
+
+Magic DRC Summary:
+Source: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/alu/runs/alu_flow/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/alu/runs/alu_flow/logs/signoff/37-alu.lef.lvs.log
+Number of nets: 1371                       |Number of nets: 1371                       
+Design is LVS clean.
+----------------------------------------
+
+Antenna Summary:
+Source: /headless/Desktop/FINAL_PROJECT/OPENLANE_digital_flow/alu/runs/alu_flow/logs/signoff/39-antenna.log
+Pin violations: 1
+Net violations: 1
