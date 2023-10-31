@@ -152,5 +152,7 @@ https://github.com/The-OpenROAD-Project/OpenLane/issues/1470
 [51] RTimithyEdwards. (26 de agosto de 2022). @jainsoumil2 : I do not know what you have done, but this is not an error. The presence of the area_sc [Comentario en la página web At least one cell (sky130_fd_sc_hd__clkdlybuf4s15_1) violates SkyWater's own DRC rules and needs to be fixed. · Issue #261 · google/skywater-pdk]. GitHub.
 https://github.com/google/skywater-pdk/issues/261
 
-[52] Efabless Corporation and contributors (s.f.). Flow Configuration Variables. The OpenLane Documentation. Recuperado el 24 de octubre de 2023 en
+[52] efabless.com, https://efabless.com/
+
+[53] Efabless Corporation and contributors (s.f.). Flow Configuration Variables. The OpenLane Documentation. Recuperado el 24 de octubre de 2023 en
 https://openlane.readthedocs.io/en/latest/reference/configuration.html
